@@ -1,0 +1,14 @@
+{
+  "profile_id": "manual-only-demo",
+  "tier": "H0_MANUAL",
+  "jurisdiction_label": "USER_DECLARED",
+  "network_available": false,
+  "cloud_ai_allowed": false,
+  "local_ai_allowed": false,
+  "data_export": "hash_only",
+  "identity_disclosure": "pseudonymous",
+  "generated_content_label_required": true,
+  "qualified_review_available": false,
+  "languages": ["zh-CN"],
+  "skills": ["local_knowledge", "caregiving", "observation"]
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If this software supports your work, cite the DIKWP conceptual origin and this release."
+title: "DIKWP COMMONBRIDGE-85: Individual AI Access Resilience, Cross-Border Cooperation and Non-Monetary True-Value OS"
+version: 1.0.0
+date-released: 2026-08-18
+authors:
+  - family-names: Duan
+    given-names: Yucong
+    alias: Henry
+url: "https://github.com/YucongDuan"
+license: Apache-2.0
+repository-code: "https://github.com/YucongDuan/DIKWP-COMMONBRIDGE-85"
+keywords:
+  - DIKWP
+  - capability-neutral cooperation
+  - offline-first
+  - provenance
+  - non-monetary value
+  - AI access resilience

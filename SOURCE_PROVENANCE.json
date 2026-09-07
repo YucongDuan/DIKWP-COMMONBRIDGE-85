@@ -1,0 +1,120 @@
+{
+  "schema": "dikwp-additive-source-preparation/v1",
+  "repository": "YucongDuan/DIKWP-COMMONBRIDGE-85",
+  "bulk_index": 104,
+  "baseline_commit": "6592be732834c6f54965f878bc038fbe9f74f76e",
+  "baseline_tree_url": "https://github.com/YucongDuan/DIKWP-COMMONBRIDGE-85/tree/6592be732834c6f54965f878bc038fbe9f74f76e",
+  "prepared_at": "2026-09-07T05:18:29.070690+00:00",
+  "status": "PREPARED_SOURCE_UNTESTED",
+  "archive_records": [
+    {
+      "original_archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0.zip",
+      "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-COMMONBRIDGE-85/6592be732834c6f54965f878bc038fbe9f74f76e/DIKWP_COMMONBRIDGE_85_v1.0.0.zip",
+      "sha256": "7f4228a3138f9185d4270f335da6626e97328782d09787f1181cf86f5d02ca4e",
+      "archive_bytes": 960699,
+      "depth": 0,
+      "parent_archive": null,
+      "source_directory": "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source",
+      "status": "PREPARED_UNTESTED",
+      "file_count": 82,
+      "expanded_bytes": 1123857,
+      "wrapper_directory_removed": "DIKWP_COMMONBRIDGE_85_v1.0.0",
+      "project_marker_directories": [
+        "."
+      ],
+      "source_files": [
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/COMMONBRIDGE85_离线展示_双击打开_v1.0.0.html",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/START_COMMONBRIDGE85.sh",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/assets/app.js",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/assets/styles.css",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/commonbridge85/__init__.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/commonbridge85/cli.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/commonbridge85/core.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/commonbridge85/server.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/commonbridge85/store.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/index.html",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/run.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/scripts/publish_github.sh",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/start_showcase.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tests/test_core.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tests/test_store.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tools/acceptance.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tools/build_manifest.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tools/static_audit.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tools/verify_release.py"
+      ],
+      "build_markers": [
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/Makefile",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/pyproject.toml"
+      ],
+      "test_markers": [
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tests/test_core.py",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/tests/test_store.py"
+      ],
+      "license_paths": [
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/LICENSE",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/NOTICE"
+      ],
+      "quarantined_workflows": [
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/review-quarantine/.github/workflows/ci.yml",
+        "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/review-quarantine/.github/workflows/pages.yml"
+      ],
+      "secret_findings": []
+    }
+  ],
+  "blockers": [],
+  "test_status": "NOT_RUN",
+  "code_executed": false,
+  "preparation_tool": {
+    "pipeline_version": "1.3",
+    "pipeline_sha256": "34228db5c1096b75917f28a38597db58391c25eb7b12474a4eb01ca725b2e5a2",
+    "archive_safety_tool_sha256": "0823c9f48d4cbef435bc4ebae237160f0df729daa19fd894d66a70f311fc4737",
+    "normalizer_sha256": "e89ea55d49a044f3117e5f5b6b21c1032a9768f115f339bda907d76c943e20a4",
+    "related_repository_input_sha256": "27f19ab577696990a311162cca5e43bbbd2cb8e4f13ee5525240e1d3cd9211f4",
+    "recovery_7z_metadata_sha256": "33214a12abe7090df5bfeffe95c099034e4db9bbeddba8cd2b6dc9a60aed1a45",
+    "recovery_7z_converter_sha256": "a03c23186745442458b5755e3afc7d9795aef8c7c3aa03c14003ec3407e63b9d",
+    "limits": {
+      "max_entries": 20000,
+      "max_file_bytes": 103809024,
+      "max_total_bytes": 536870912,
+      "max_archive_bytes": 104857600,
+      "max_ratio": 200.0,
+      "max_path_depth": 64,
+      "max_path_bytes": 1024
+    },
+    "max_repository_expanded_bytes": 1073741824,
+    "max_nested_depth": 4,
+    "max_archives_per_repository": 64
+  },
+  "remote_write_performed": false,
+  "related_repositories": [
+    {
+      "name": "DIKWP-COOPSTACK-",
+      "url": "https://github.com/YucongDuan/DIKWP-COOPSTACK-"
+    },
+    {
+      "name": "DIKWP-MESH-SIWEN-Commons-OS-v1.0",
+      "url": "https://github.com/YucongDuan/DIKWP-MESH-SIWEN-Commons-OS-v1.0"
+    },
+    {
+      "name": "DIKWP-SAIL-v1.0.0",
+      "url": "https://github.com/YucongDuan/DIKWP-SAIL-v1.0.0"
+    },
+    {
+      "name": "OPENCONSTELLATION",
+      "url": "https://github.com/YucongDuan/OPENCONSTELLATION"
+    },
+    {
+      "name": "DIKWP-HepatoScholar-OS",
+      "url": "https://github.com/YucongDuan/DIKWP-HepatoScholar-OS"
+    }
+  ],
+  "totals": {
+    "expanded_bytes": 1123857,
+    "archives": 1,
+    "files": 82,
+    "source_files": 19,
+    "workflow_files": 2
+  },
+  "evidence_boundary": "Additive source visibility only; original code bytes preserved; no execution, license reassignment, certification, or remote write."
+}

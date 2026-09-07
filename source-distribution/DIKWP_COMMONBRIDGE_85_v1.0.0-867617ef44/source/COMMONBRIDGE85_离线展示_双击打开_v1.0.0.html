@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="任何个体、任何合规AI等级、一个可验证贡献。DIKWP COMMONBRIDGE-85离线优先协作系统。">
+  <title>共桥 COMMONBRIDGE-85</title>
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InQgZCI+Cjx0aXRsZSBpZD0idCI+Q09NTU9OQlJJREdFLTg1PC90aXRsZT48ZGVzYyBpZD0iZCI+VHdvIGJyaWRnZXMgam9pbmluZyBhcm91bmQgYSBmaXZlLW5vZGUgRElLV1AgY29yZTwvZGVzYz4KPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzU1ZDZiZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzZmN2JmNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHJ4PSIyNCIgZmlsbD0iIzBjMTQyNyIvPgo8cGF0aCBkPSJNMTUgNjZjOS0yNiAyMC0zNiAzMy0zNnMyNCAxMCAzMyAzNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTcgNjZoNjIiIHN0cm9rZT0iI2Y0Yzk1ZCIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPGcgZmlsbD0iI2ZmZiI+PGNpcmNsZSBjeD0iMjgiIGN5PSI1NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iNDIiIHI9IjQiLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjM2IiByPSI0Ii8+PGNpcmNsZSBjeD0iNTgiIGN5PSI0MiIgcj0iNCIvPjxjaXJjbGUgY3g9IjY4IiBjeT0iNTQiIHI9IjQiLz48L2c+Cjwvc3ZnPgo=" type="image/svg+xml">
+  <meta name="theme-color" content="#07101f">
+  <style>
+:root{
+  --bg:#07101f;--bg2:#0d1730;--panel:rgba(17,29,55,.86);--panel2:#111f3c;--text:#eff5ff;--muted:#97a8c6;
+  --line:rgba(255,255,255,.09);--mint:#55d6be;--blue:#7082ff;--gold:#f4c95d;--red:#ff7e87;--shadow:0 24px 70px rgba(0,0,0,.35);
+  --radius:24px;--radius2:16px;--max:1480px;
+}
+[data-theme="light"]{--bg:#eef4fb;--bg2:#f8fbff;--panel:rgba(255,255,255,.88);--panel2:#fff;--text:#101b31;--muted:#5b6b86;--line:rgba(14,32,64,.12);--shadow:0 20px 55px rgba(31,58,98,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 14% 8%,rgba(85,214,190,.1),transparent 25%),radial-gradient(circle at 90% 12%,rgba(112,130,255,.11),transparent 25%),linear-gradient(155deg,var(--bg),var(--bg2));color:var(--text);font-family:"Noto Sans CJK SC","Microsoft YaHei",Inter,system-ui,sans-serif;min-height:100vh;line-height:1.55}.ambient{position:fixed;border-radius:50%;filter:blur(85px);opacity:.15;pointer-events:none;z-index:-2}.ambient-a{width:340px;height:340px;background:var(--mint);left:-120px;top:30%}.ambient-b{width:400px;height:400px;background:var(--blue);right:-180px;top:58%}button,input,textarea,select{font:inherit}.topbar{position:sticky;top:0;z-index:50;height:76px;display:flex;align-items:center;gap:28px;padding:0 max(26px,calc((100vw - var(--max))/2));background:rgba(7,16,31,.74);backdrop-filter:blur(20px);border-bottom:1px solid var(--line)}[data-theme="light"] .topbar{background:rgba(246,250,255,.8)}.brand{display:flex;align-items:center;gap:11px;color:var(--text);text-decoration:none;min-width:230px}.brand img{width:43px;height:43px}.brand span{display:grid;line-height:1.05}.brand b{font-size:15px;letter-spacing:.08em}.brand small{font-size:10px;color:var(--muted);margin-top:6px;letter-spacing:.1em}.topnav{display:flex;gap:3px;overflow:auto;scrollbar-width:none;flex:1}.topnav button,.ghost{border:0;background:transparent;color:var(--muted);padding:10px 13px;border-radius:12px;cursor:pointer;white-space:nowrap;transition:.2s}.topnav button:hover,.topnav button.active,.ghost:hover{background:rgba(112,130,255,.12);color:var(--text)}.topnav button.active{box-shadow:inset 0 0 0 1px rgba(112,130,255,.28)}.top-actions{display:flex;gap:4px}.view{display:none;max-width:var(--max);margin:auto;padding:0 28px 80px}.view.active{display:block}.hero{min-height:610px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:54px;padding:66px 0 34px}.eyebrow,.section-title>span{font-size:11px;letter-spacing:.22em;color:var(--mint);font-weight:800}.hero h1{font-size:clamp(42px,5vw,72px);line-height:1.08;margin:16px 0 22px;letter-spacing:-.035em}.hero h1 span{background:linear-gradient(90deg,var(--mint),#9ea8ff 60%,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy>p{font-size:18px;color:var(--muted);max-width:760px}.hero-copy strong{color:var(--text)}.hero-actions{display:flex;gap:12px;margin:30px 0 24px}.primary,.secondary,.icon-btn{border:0;cursor:pointer;border-radius:14px;font-weight:750;transition:.2s}.primary{background:linear-gradient(135deg,var(--mint),#67a4e8);color:#07101f;padding:13px 19px;box-shadow:0 12px 32px rgba(85,214,190,.18)}.primary:hover{transform:translateY(-1px);box-shadow:0 16px 34px rgba(85,214,190,.25)}.secondary{background:rgba(112,130,255,.12);color:var(--text);border:1px solid rgba(112,130,255,.35);padding:12px 18px}.full{width:100%;padding:15px 18px}.promise-row{display:flex;gap:8px;flex-wrap:wrap}.promise-row span,.badge,.tag{font-size:11px;padding:6px 10px;border-radius:99px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted)}.hero-visual{position:relative;aspect-ratio:1/1;max-width:540px;margin:auto;display:grid;place-items:center}.orbit{position:absolute;border:1px solid rgba(112,130,255,.25);border-radius:50%}.orbit-1{inset:15%}.orbit-2{inset:4%;border-style:dashed;animation:spin 28s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.core-node{width:190px;height:190px;border-radius:50%;display:grid;place-content:center;text-align:center;background:radial-gradient(circle at 40% 30%,rgba(85,214,190,.35),rgba(28,45,83,.95));box-shadow:0 0 0 14px rgba(112,130,255,.06),0 30px 70px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.15)}.core-node b{font-size:25px;letter-spacing:.22em}.core-node small{color:var(--muted);margin-top:9px}.sat{position:absolute;width:86px;height:86px;border-radius:18px;display:grid;place-content:center;text-align:center;background:rgba(14,28,54,.93);border:1px solid var(--line);box-shadow:var(--shadow)}[data-theme="light"] .sat{background:rgba(255,255,255,.94)}.sat b{font-size:20px;color:var(--gold)}.sat small{font-size:11px;color:var(--muted)}.sat-1{left:4%;top:44%}.sat-2{top:4%;left:42%}.sat-3{right:4%;top:44%}.sat-4{bottom:4%;left:42%}.worldline{position:absolute;bottom:23%;left:50%;transform:translateX(-50%);width:max-content;font-size:11px;color:var(--muted);background:rgba(0,0,0,.24);border:1px solid var(--line);padding:7px 12px;border-radius:99px}.metric-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.025);overflow:hidden;margin-bottom:32px}.metric-strip>div{padding:22px 25px;border-right:1px solid var(--line);display:grid}.metric-strip>div:last-child{border-right:0}.metric-strip strong{font-size:28px;color:var(--gold)}.metric-strip span{font-size:12px;color:var(--muted)}.workspace{display:grid;gap:20px}.two-col{grid-template-columns:1fr 1fr}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:25px;backdrop-filter:blur(18px)}.wide{margin-top:28px}.panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:22px}.panel-head h2{margin:2px 0;font-size:22px}.panel-head p{margin:4px 0 0;color:var(--muted);font-size:13px}.step{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:10px;background:rgba(85,214,190,.14);color:var(--mint);font-size:11px;font-weight:800;float:left;margin-right:10px}.icon-btn{width:36px;height:36px;background:rgba(255,255,255,.05);color:var(--muted)}label{display:grid;gap:7px;margin-bottom:15px;color:var(--muted);font-size:12px;font-weight:650}input,textarea,select{width:100%;background:rgba(4,12,26,.52);color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 13px;outline:none;resize:vertical}[data-theme="light"] input,[data-theme="light"] textarea,[data-theme="light"] select{background:#f6f9fd}input:focus,textarea:focus,select:focus{border-color:rgba(85,214,190,.65);box-shadow:0 0 0 3px rgba(85,214,190,.1)}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.value-picker{display:flex;gap:7px;flex-wrap:wrap;margin:7px 0 17px}.value-chip{display:flex;align-items:center;gap:6px;padding:7px 9px;border-radius:10px;background:rgba(255,255,255,.035);border:1px solid var(--line);font-size:11px;color:var(--muted);cursor:pointer}.value-chip:has(input:checked){border-color:rgba(85,214,190,.5);color:var(--text);background:rgba(85,214,190,.1)}.value-chip input{width:auto;margin:0}.boundary{font-size:11px;color:var(--muted);border-left:2px solid var(--gold);padding-left:10px;margin:15px 0 0}.empty-state{min-height:320px;display:grid;place-content:center;text-align:center;color:var(--muted)}.empty-state h3{color:var(--text);margin:6px 0}.empty-state p{margin:0}.empty-icon{font-size:42px;color:var(--mint)}.hidden{display:none!important}.decision-card{border:1px solid rgba(85,214,190,.24);background:linear-gradient(135deg,rgba(85,214,190,.12),rgba(112,130,255,.08));border-radius:18px;padding:18px;margin-bottom:17px}.decision-card small{color:var(--mint);font-weight:800;letter-spacing:.08em}.decision-card h3{font-size:20px;margin:6px 0 14px}.idline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:10px}.idline span{margin-right:auto}.idline button{border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--muted);border-radius:8px;padding:5px 8px;cursor:pointer}.dikwp-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.dikwp-grid article{min-height:150px;border-radius:14px;padding:13px;border:1px solid var(--line);background:rgba(255,255,255,.025)}.dikwp-grid article>b{font-size:20px}.dikwp-grid h4{font-size:12px;margin:3px 0 9px}.dikwp-grid div{font-size:10px;color:var(--muted);overflow-wrap:anywhere}.dikwp-grid ul{padding-left:14px;margin:0}.d-card>b{color:#64d7f0}.i-card>b{color:#ff9b8a}.k-card>b{color:#b4a1ff}.w-card>b{color:#f4c95d}.p-card>b{color:#55d6be}.task-list h3{font-size:14px;margin:19px 0 10px}.task-item{display:grid;grid-template-columns:36px 1fr auto;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}.task-icon{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;background:rgba(112,130,255,.12);color:var(--blue);font-size:11px}.task-item b{font-size:12px}.task-item p{font-size:10px;color:var(--muted);margin:2px 0}.task-item .tag{font-size:9px}.section-title{padding:70px 0 24px;max-width:920px}.section-title h1{font-size:clamp(32px,4vw,56px);line-height:1.12;margin:10px 0 15px;letter-spacing:-.03em}.section-title p{font-size:16px;color:var(--muted)}.toggle-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:15px}.toggle{display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:12px;padding:11px;margin:0;cursor:pointer}.toggle input{display:none}.toggle span{width:33px;height:19px;border-radius:20px;background:rgba(255,255,255,.09);position:relative;transition:.2s}.toggle span:after{content:"";width:13px;height:13px;border-radius:50%;background:var(--muted);position:absolute;left:3px;top:3px;transition:.2s}.toggle input:checked+span{background:rgba(85,214,190,.28)}.toggle input:checked+span:after{transform:translateX(14px);background:var(--mint)}.route-table{display:grid;gap:8px}.route-row{display:grid;grid-template-columns:30px 1.1fr .7fr .9fr;gap:9px;align-items:center;border:1px solid var(--line);border-radius:13px;padding:10px}.route-row .status{font-size:9px;color:var(--gold)}.route-row .route{font-size:9px;color:var(--muted);overflow-wrap:anywhere}.call-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.call-card{border:1px solid var(--line);border-radius:16px;padding:16px;background:rgba(255,255,255,.025);transition:.2s}.call-card:hover{transform:translateY(-2px);border-color:rgba(85,214,190,.35)}.call-card h3{font-size:14px;margin:7px 0}.call-card p{font-size:11px;color:var(--muted)}.call-meta{display:flex;gap:5px;flex-wrap:wrap}.call-meta span{font-size:9px;padding:4px 7px;border-radius:8px;background:rgba(112,130,255,.1);color:var(--muted)}hr{border:0;border-top:1px solid var(--line);margin:20px 0}.value-receipt{border:1px solid rgba(244,201,93,.28);background:linear-gradient(135deg,rgba(244,201,93,.11),rgba(85,214,190,.05));border-radius:18px;padding:18px}.value-vector{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}.value-dim{display:flex;justify-content:space-between;padding:8px;border-radius:10px;border:1px solid var(--line);font-size:10px;color:var(--muted)}.value-dim.on{color:var(--text);border-color:rgba(244,201,93,.35);background:rgba(244,201,93,.07)}.policy-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.policy-grid article{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}.policy-grid article>b{color:var(--mint);font-size:12px}.policy-grid h3{font-size:17px;margin:10px 0 7px}.policy-grid p{font-size:12px;color:var(--muted)}.threat-table{display:grid;gap:10px}.threat-row{display:grid;grid-template-columns:.7fr 1.3fr 1.5fr;gap:14px;border:1px solid var(--line);border-radius:15px;padding:15px;background:var(--panel)}.threat-row h3{font-size:14px;margin:0}.threat-row p{font-size:11px;color:var(--muted);margin:0}.threat-row strong{font-size:11px;color:var(--gold)}.architecture-map{display:grid;gap:22px;padding:30px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.arch-row{display:flex;align-items:center;justify-content:center;gap:14px}.arch-node{min-width:210px;text-align:center;border-radius:16px;padding:18px;border:1px solid var(--line);background:rgba(255,255,255,.025);font-weight:750}.arch-node small{font-weight:400;color:var(--muted)}.arch-node.capsule,.arch-node.mesh{border-color:rgba(85,214,190,.35);background:rgba(85,214,190,.08)}.arch-node.router{border-color:rgba(112,130,255,.35);background:rgba(112,130,255,.08)}.arrow{font-size:24px;color:var(--muted)}.architecture-notes{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:15px}.architecture-notes>div{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}.architecture-notes li{color:var(--muted);margin:7px 0;font-size:12px}footer{max-width:var(--max);margin:auto;padding:30px 28px 46px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center;color:var(--muted);font-size:11px}footer div{display:flex;align-items:center;gap:9px;color:var(--text)}footer img{width:30px;height:30px}#toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;background:#101c35;color:#fff;padding:10px 15px;border-radius:11px;border:1px solid var(--line);z-index:100;transition:.2s;pointer-events:none}#toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:1080px){.topnav{display:none}.hero{grid-template-columns:1fr}.hero-visual{max-width:440px}.two-col{grid-template-columns:1fr}.call-grid,.policy-grid{grid-template-columns:1fr 1fr}.dikwp-grid{grid-template-columns:repeat(3,1fr)}.threat-row{grid-template-columns:1fr}.arch-row{flex-wrap:wrap}.arrow{transform:rotate(90deg)}}
+@media(max-width:700px){.topbar{padding:0 15px}.brand{min-width:auto}.brand span{display:none}.view{padding:0 14px 60px}.hero{padding-top:38px}.hero h1{font-size:39px}.hero-copy>p{font-size:15px}.hero-visual{max-width:330px}.sat{width:64px;height:64px}.core-node{width:145px;height:145px}.core-node b{font-size:19px}.worldline{display:none}.metric-strip{grid-template-columns:1fr 1fr}.metric-strip>div:nth-child(2){border-right:0}.metric-strip>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.field-grid,.toggle-grid,.value-vector,.architecture-notes{grid-template-columns:1fr}.dikwp-grid{grid-template-columns:1fr 1fr}.call-grid,.policy-grid{grid-template-columns:1fr}.panel{padding:18px}.route-row{grid-template-columns:26px 1fr}.route-row .status,.route-row .route{grid-column:2}.arch-node{min-width:100%;width:100%}.hero-actions{flex-direction:column}.hero-actions button{width:100%}footer{flex-direction:column;align-items:flex-start}}
+@media print{.topbar,.hero-actions,.form-panel,footer,#toast{display:none!important}body{background:white;color:#111}.view{display:block!important;page-break-after:always}.panel,.architecture-map{box-shadow:none;background:white;border:1px solid #ddd}.result-panel{width:100%}.hero{min-height:auto}.hero-visual{display:none}}
+
+</style>
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="COMMONBRIDGE-85 home">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InQgZCI+Cjx0aXRsZSBpZD0idCI+Q09NTU9OQlJJREdFLTg1PC90aXRsZT48ZGVzYyBpZD0iZCI+VHdvIGJyaWRnZXMgam9pbmluZyBhcm91bmQgYSBmaXZlLW5vZGUgRElLV1AgY29yZTwvZGVzYz4KPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzU1ZDZiZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzZmN2JmNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHJ4PSIyNCIgZmlsbD0iIzBjMTQyNyIvPgo8cGF0aCBkPSJNMTUgNjZjOS0yNiAyMC0zNiAzMy0zNnMyNCAxMCAzMyAzNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTcgNjZoNjIiIHN0cm9rZT0iI2Y0Yzk1ZCIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPGcgZmlsbD0iI2ZmZiI+PGNpcmNsZSBjeD0iMjgiIGN5PSI1NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iNDIiIHI9IjQiLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjM2IiByPSI0Ii8+PGNpcmNsZSBjeD0iNTgiIGN5PSI0MiIgcj0iNCIvPjxjaXJjbGUgY3g9IjY4IiBjeT0iNTQiIHI9IjQiLz48L2c+Cjwvc3ZnPgo=" alt="COMMONBRIDGE-85 标志">
+      <span><b>COMMONBRIDGE</b><small>DIKWP · MESH8.5</small></span>
+    </a>
+    <nav class="topnav" aria-label="Main navigation">
+      <button data-view="home" class="active">起点</button>
+      <button data-view="route">能力路由</button>
+      <button data-view="calls">开放任务</button>
+      <button data-view="value">真价值</button>
+      <button data-view="policy">合规韧性</button>
+      <button data-view="threat">威胁模型</button>
+      <button data-view="architecture">架构</button>
+    </nav>
+    <div class="top-actions">
+      <button id="langBtn" class="ghost">EN</button>
+      <button id="themeBtn" class="ghost" aria-label="切换主题">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">INDIVIDUAL AI ACCESS RESILIENCE</div>
+          <h1>任何个体，任何合规AI等级，<br><span>一个可验证贡献。</span></h1>
+          <p>当国家、平台、机构与成本把AI能力分层时，共桥不绕过控制，而是把同一协作编译成<strong>纯人工、本地轻量、受限云端与机构级</strong>多条合法路径。贡献权不再等同于模型访问权。</p>
+          <div class="hero-actions"><button class="primary" data-scroll="#capsule">创建协作胶囊</button><button class="secondary" id="loadDemo">载入跨境开源演示</button></div>
+          <div class="promise-row"><span>无账号</span><span>默认不联网</span><span>不评价个人等级</span><span>非金融真价值</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Capability-neutral collaboration map">
+          <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div>
+          <div class="core-node"><b>D I K W P</b><small>共同语义核心</small></div>
+          <div class="sat sat-1"><b>H0</b><small>纯人工</small></div>
+          <div class="sat sat-2"><b>A2</b><small>本地模型</small></div>
+          <div class="sat sat-3"><b>A3</b><small>受限云端</small></div>
+          <div class="sat sat-4"><b>A5</b><small>机构代理</small></div>
+          <div class="worldline">事实 → 差异 → 协作 → 贡献 → 现实结果</div>
+        </div>
+      </div>
+
+      <div class="metric-strip">
+        <div><strong>363</strong><span>当前公开仓库快照</span></div>
+        <div><strong>6</strong><span>能力环境而非个人等级</span></div>
+        <div><strong>10</strong><span>非金钱真价值维度</span></div>
+        <div><strong>0</strong><span>绕过控制与社会信用</span></div>
+      </div>
+
+      <section id="capsule" class="workspace two-col">
+        <div class="panel form-panel">
+          <div class="panel-head"><div><span class="step">01</span><h2>创建协作胶囊</h2><p>从真实问题开始，不要求先掌握整个DIKWP体系。</p></div><button id="clearBtn" class="icon-btn" title="清空">↺</button></div>
+          <label>协作标题<input id="title" placeholder="例如：把本地疾病经验转化为全球可复核知识"></label>
+          <label>希望共同实现什么<textarea id="purpose" rows="3" placeholder="一句话目的：谁将因此获得什么能力？"></textarea></label>
+          <label>当前问题与语境<textarea id="problem" rows="4" placeholder="事实、现实约束、已经发生的事情"></textarea></label>
+          <div class="field-grid">
+            <label>来源（每行一个）<textarea id="sources" rows="4" placeholder="URL、文件、观察记录、版本"></textarea></label>
+            <label>差异与未知（每行一个）<textarea id="differences" rows="4" placeholder="冲突、缺失、本地差异、尚未表达的问题"></textarea></label>
+          </div>
+          <div class="field-grid">
+            <label>受影响者<input id="affected" placeholder="研究者、患者、社区、未来世代…"></label>
+            <label>现实限制<input id="constraints" placeholder="网络、成本、语言、法规、算力、时间…"></label>
+          </div>
+          <label>当前理解<textarea id="understanding" rows="2" placeholder="可以保持开放，但不能伪装已知"></textarea></label>
+          <div class="value-picker" id="valuePicker" aria-label="非金钱真价值"></div>
+          <button id="compileBtn" class="primary full">生成能力中立协作胶囊</button>
+          <p class="boundary">本系统不提供VPN、代理、凭证规避、出口管制规避或平台限制绕过。它只把任务改写为当前环境中可合法执行的路径。</p>
+        </div>
+
+        <div class="panel result-panel">
+          <div class="panel-head"><div><span class="step">02</span><h2>胶囊结果</h2><p>一个共享核心，多个能力入口。</p></div><div class="badge" id="capsuleStatus">等待输入</div></div>
+          <div id="capsuleEmpty" class="empty-state"><div class="empty-icon">⌁</div><h3>尚未生成胶囊</h3><p>载入演示或填写左侧表单。</p></div>
+          <div id="capsuleResult" class="hidden">
+            <div class="decision-card"><small>唯一首选行动</small><h3 id="primaryAction"></h3><div class="idline"><span id="capsuleId"></span><button id="copyCapsule">复制JSON</button><button id="downloadCapsule">下载</button></div></div>
+            <div class="dikwp-grid">
+              <article class="d-card"><b>D</b><h4>来源与事实</h4><div id="dOut"></div></article>
+              <article class="i-card"><b>I</b><h4>差异与未知</h4><div id="iOut"></div></article>
+              <article class="k-card"><b>K</b><h4>当前理解</h4><div id="kOut"></div></article>
+              <article class="w-card"><b>W</b><h4>受影响世界</h4><div id="wOut"></div></article>
+              <article class="p-card"><b>P</b><h4>目的与行动</h4><div id="pOut"></div></article>
+            </div>
+            <div class="task-list"><h3>能力中立任务分解</h3><div id="taskCards"></div></div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="view-route" class="view">
+      <div class="section-title"><span>CAPABILITY-NEUTRAL COMPILER</span><h1>不让模型访问权决定贡献权</h1><p>描述当前环境，而不是给人永久分级。每个环境档案都有时效，可以随地点、时间与政策改变。</p></div>
+      <div class="workspace two-col route-workspace">
+        <div class="panel form-panel">
+          <div class="panel-head"><div><span class="step">03</span><h2>声明当前环境</h2></div></div>
+          <label>能力环境<select id="tier"></select></label>
+          <div class="toggle-grid">
+            <label class="toggle"><input type="checkbox" id="network"><span></span>网络可用</label>
+            <label class="toggle"><input type="checkbox" id="cloud"><span></span>允许云端AI</label>
+            <label class="toggle"><input type="checkbox" id="local"><span></span>允许本地AI</label>
+            <label class="toggle"><input type="checkbox" id="qualified"><span></span>有合格领域复核者</label>
+          </div>
+          <div class="field-grid"><label>数据输出<select id="dataExport"><option value="public_only">仅公开数据</option><option value="hash_only">仅哈希与汇总</option><option value="local_only">仅本地</option><option value="none">禁止输出</option></select></label><label>身份披露<select id="identity"><option value="pseudonymous">化名</option><option value="minimal">最小披露</option><option value="public">公开</option></select></label></div>
+          <label>司法辖区标签<input id="jurisdiction" value="USER_DECLARED" placeholder="仅用于记录，不提供法律结论"></label>
+          <label>技能<input id="skills" placeholder="翻译、临床、编程、社区经验、复核…"></label>
+          <button id="routeBtn" class="primary full">生成当前环境的合法协作路径</button>
+          <p class="boundary">“能力环境”不是人的价值等级，不用于就业、信贷、社会资格、边境或公民评分。</p>
+        </div>
+        <div class="panel result-panel">
+          <div class="panel-head"><div><span class="step">04</span><h2>路由计划</h2><p>优先保留纯人工和本地路径。</p></div><div class="badge" id="routeStatus">等待胶囊</div></div>
+          <div id="routeEmpty" class="empty-state"><div class="empty-icon">⇄</div><h3>先生成协作胶囊</h3><p>随后系统会为当前环境编译路径。</p></div>
+          <div id="routeResult" class="hidden"><div class="decision-card"><small>当前唯一首选任务</small><h3 id="routePrimary"></h3><div class="idline"><span id="routeId"></span><button id="copyRoute">复制JSON</button></div></div><div id="routeTable"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-calls" class="view">
+      <div class="section-title"><span>PROACTIVE OPEN CALLS</span><h1>系统主动寻找缺失贡献，而不是等待中心机构分配资格</h1><p>优先发布纯人工、本地知识、翻译、独立复核和现实结果任务。</p></div>
+      <div class="panel wide"><div class="panel-head"><div><h2>开放任务雷达</h2><p>没有资金也可以贡献；没有高等级模型也可以贡献。</p></div><button id="refreshCalls" class="secondary">重新生成</button></div><div id="openCalls" class="call-grid"></div></div>
+    </section>
+
+    <section id="view-value" class="view">
+      <div class="section-title"><span>NON-MONETARY TRUE VALUE</span><h1>记录贡献，不把人变成分数</h1><p>真价值凭证不可交易、不可转让、不可形成社会信用，只在具体任务与观察结果范围内成立。</p></div>
+      <div class="workspace two-col">
+        <div class="panel form-panel">
+          <div class="panel-head"><div><span class="step">05</span><h2>登记贡献</h2></div></div>
+          <label>贡献者显示名<input id="contributor" placeholder="可使用化名"></label>
+          <label>任务ID<input id="taskId" placeholder="将自动带入首选任务"></label>
+          <label>贡献摘要<textarea id="contributionSummary" rows="4" placeholder="完成了什么？保留了哪些差异？"></textarea></label>
+          <label>来源与工件<textarea id="contributionSources" rows="3" placeholder="每行一个URL、文件名或内容摘要"></textarea></label>
+          <label>尚未解决<textarea id="contributionUnresolved" rows="2"></textarea></label>
+          <button id="contributeBtn" class="primary full">生成贡献记录</button>
+          <hr>
+          <label>现实结果<textarea id="outcomeSummary" rows="3" placeholder="只有观察到结果后，才能形成观察型真价值凭证"></textarea></label>
+          <div class="field-grid"><label>受益者<input id="benefited" placeholder="谁实际受益"></label><label>负担或伤害<input id="burdened" placeholder="谁承担了什么"></label></div>
+          <label>结果证据<textarea id="outcomeEvidence" rows="3" placeholder="每行一个可复核证据"></textarea></label>
+          <div class="value-picker" id="receiptValuePicker"></div>
+          <label class="toggle"><input type="checkbox" id="observed"><span></span>现实效果已经观察</label>
+          <button id="receiptBtn" class="secondary full">生成非金融真价值凭证</button>
+        </div>
+        <div class="panel result-panel"><div class="panel-head"><div><h2>贡献与真价值</h2><p>一次贡献不能变成对人格的永久评价。</p></div></div><div id="valueEmpty" class="empty-state"><div class="empty-icon">∞</div><h3>尚未登记贡献</h3></div><div id="valueResult" class="hidden"></div></div>
+      </div>
+    </section>
+
+    <section id="view-policy" class="view">
+      <div class="section-title"><span>COMPLIANCE-FIRST RESILIENCE</span><h1>不突破法律边界，突破能力垄断</h1><p>控制越严格，系统越应保留人工、离线、可解释、最小数据和可申诉路径，而不是制造秘密规避。</p></div>
+      <div class="policy-grid">
+        <article><b>01</b><h3>任务分级，不给人分级</h3><p>系统只描述当前工具环境与任务敏感度。它不形成永久个人等级，也不用于社会资格判断。</p></article>
+        <article><b>02</b><h3>降级执行，不绕过控制</h3><p>云端受限时转向本地或人工；数据不能输出时仅交换模式、摘要、聚合或哈希。</p></article>
+        <article><b>03</b><h3>延迟容忍交换</h3><p>内容寻址ZIP可经用户合法控制的文件、邮件、移动存储或机构通道交换并离线核验。</p></article>
+        <article><b>04</b><h3>生成内容可识别</h3><p>保留模型、版本、提示、人工修订和来源元数据，不帮助删除或伪造生成标识。</p></article>
+        <article><b>05</b><h3>高影响最小复核</h3><p>医疗、法律、金融、就业和公共安全的决定性步骤进入合格复核，不让所有前置工作停摆。</p></article>
+        <article><b>06</b><h3>政策档案由用户声明</h3><p>参考实现不假装自动给出全球法律意见；当地义务应由合法主体更新和复核。</p></article>
+      </div>
+    </section>
+
+    <section id="view-threat" class="view">
+      <div class="section-title"><span>ADVERSARIAL HUMAN MODEL</span><h1>把人性想得足够现实，才能保护开放合作</h1><p>系统默认会遭遇来源剥离、免费劳动抽取、冒充、门槛滥用、数据投毒和价值凭证游戏化。</p></div>
+      <div class="threat-table" id="threatTable"></div>
+    </section>
+
+    <section id="view-architecture" class="view">
+      <div class="section-title"><span>SOVEREIGN & PORTABLE</span><h1>一个共享协议，不依赖一个平台或一个模型</h1><p>D/I/K/W/P是协作核心；模型、国家、平台和算力只是可替换载体。</p></div>
+      <div class="architecture-map">
+        <div class="arch-row"><div class="arch-node people">个体与社区<br><small>需要 · 本地知识 · 主体权</small></div><div class="arrow">→</div><div class="arch-node capsule">协作胶囊<br><small>D/I/K/W/P · 来源 · 任务 · 权利</small></div><div class="arrow">→</div><div class="arch-node router">能力中立编译器<br><small>人工 / 本地 / 云端 / 机构</small></div></div>
+        <div class="arch-row"><div class="arch-node profile">环境与政策档案<br><small>用户声明 · 有时效 · 非个人等级</small></div><div class="arrow">↕</div><div class="arch-node exchange">离线交换包<br><small>Manifest · SHA-256 · 可延迟</small></div><div class="arrow">↕</div><div class="arch-node ledger">贡献与真价值账本<br><small>非金融 · 范围有限 · 可纠错</small></div></div>
+        <div class="arch-row"><div class="arch-node mesh">MESH8.5责任世界线<br><small>执行 · 现实效果 · 纠错 · 受影响者声音</small></div></div>
+      </div>
+      <div class="architecture-notes"><div><h3>核心不变量</h3><ul><li>不绕过法律或技术控制</li><li>不把人评级</li><li>不把真价值金融化</li><li>不让高算力垄断问题生成权</li><li>不以输出替代现实效果</li></ul></div><div><h3>主动循环</h3><ol><li>发现尚未表达的本地问题</li><li>生成最低能力可完成的任务</li><li>匹配贡献者而非排名人</li><li>保存来源与署名</li><li>观察现实结果</li><li>纠错并再开放</li></ol></div></div>
+    </section>
+  </main>
+
+  <footer><div><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NiA5NiIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InQgZCI+Cjx0aXRsZSBpZD0idCI+Q09NTU9OQlJJREdFLTg1PC90aXRsZT48ZGVzYyBpZD0iZCI+VHdvIGJyaWRnZXMgam9pbmluZyBhcm91bmQgYSBmaXZlLW5vZGUgRElLV1AgY29yZTwvZGVzYz4KPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzU1ZDZiZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzZmN2JmNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPgo8cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHJ4PSIyNCIgZmlsbD0iIzBjMTQyNyIvPgo8cGF0aCBkPSJNMTUgNjZjOS0yNiAyMC0zNiAzMy0zNnMyNCAxMCAzMyAzNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2cpIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTcgNjZoNjIiIHN0cm9rZT0iI2Y0Yzk1ZCIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPGcgZmlsbD0iI2ZmZiI+PGNpcmNsZSBjeD0iMjgiIGN5PSI1NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iNDIiIHI9IjQiLz48Y2lyY2xlIGN4PSI0OCIgY3k9IjM2IiByPSI0Ii8+PGNpcmNsZSBjeD0iNTgiIGN5PSI0MiIgcj0iNCIvPjxjaXJjbGUgY3g9IjY4IiBjeT0iNTQiIHI9IjQiLz48L2c+Cjwvc3ZnPgo=" alt=""><b>DIKWP COMMONBRIDGE-85</b></div><p>Conceptual origin: Yucong Duan / DIKWP · Apache-2.0 reference implementation · No person grading · No circumvention</p></footer>
+  <div id="toast" role="status"></div>
+  <script>
+const VERSION='1.0.0';
+const ORIGIN={conceptual_origin:'Yucong Duan / DIKWP',portfolio_profile:'https://github.com/YucongDuan',system:'DIKWP COMMONBRIDGE-85',version:VERSION};
+const TIERS={
+ H0_MANUAL:{rank:0,zh:'纯人工／无AI',en:'Human-only / no AI',network:false},
+ A1_LOCAL_RULES:{rank:1,zh:'本地规则与轻量工具',en:'Local rules and lightweight tools',network:false},
+ A2_SMALL_LOCAL:{rank:2,zh:'小型本地模型',en:'Small local model',network:false},
+ A3_LIMITED_HOSTED:{rank:3,zh:'受限云端模型',en:'Limited hosted model',network:true},
+ A4_ADVANCED_HOSTED:{rank:4,zh:'高级云端模型',en:'Advanced hosted model',network:true},
+ A5_INSTITUTIONAL_AGENT:{rank:5,zh:'机构级代理与工具',en:'Institutional agent and tools',network:true}
+};
+const VALUES={truth_access:'真相可达',autonomy:'主体自主',care:'照护',repair:'修复',recognition:'贡献承认',learning:'学习能力',future_options:'未来选择',ecological_continuity:'生态连续',community_trust:'共同体信任',time_return:'时间返还'};
+const TASKS=[
+ ['source_map','建立来源与版本图','Map sources and versions','H0_MANUAL',true,['reading','source_checking'],['truth_access','recognition']],
+ ['local_context','补充本地语境与缺席世界','Add local context and absent worlds','H0_MANUAL',true,['local_knowledge','listening'],['autonomy','care','future_options']],
+ ['translation','翻译并保留语义差异','Translate while preserving semantic differences','A1_LOCAL_RULES',true,['translation'],['truth_access','learning']],
+ ['structured_synthesis','形成D/I/K/W/P协作骨架','Build a D/I/K/W/P collaboration scaffold','A2_SMALL_LOCAL',true,['analysis','structured_writing'],['truth_access','learning','time_return']],
+ ['independent_check','独立复核关键主张','Independently check decisive claims','A2_SMALL_LOCAL',true,['verification','domain_review'],['truth_access','community_trust']],
+ ['world_effect','观察现实结果并纠错','Observe world effects and correct','H0_MANUAL',true,['observation','feedback'],['repair','care','future_options']]
+];
+const THREATS=[
+ ['来源剥离','机构或平台继续使用思想，却逐渐删除原始来源。','每个胶囊、贡献与凭证携带来源、版本、摘要和可争议归因。'],
+ ['免费劳动抽取','赞美、咨询和试用持续发生，但维护时间与现实资源不返还。','公共问题进入Issue；组织专属工作进入有范围的试点；价值凭证记录时间返还。'],
+ ['门槛滥用','强势方把“合规”泛化为阻止弱势个体参与的理由。','要求声明具体任务、具体限制和合法替代路径，不接受模糊的永久封锁。'],
+ ['身份与资格评分','能力环境被固化成对人的永久等级。','环境档案有时效；系统禁止个人总分、社会信用和跨场景资格推断。'],
+ ['贡献洗白','二次实现者将公共贡献包装成完全独立原创。','建立谱系、supersedes、差异摘要和独立贡献边界。'],
+ ['数据投毒','恶意协作者上传伪造来源、污染结果或删除反证。','内容寻址、哈希清单、独立复核、残差保留与受影响者申诉。'],
+ ['模型与平台锁定','协作依赖一个API、一个国家或一个商业平台。','每项核心任务必须具有人工或本地退路；交换包可离线核验。'],
+ ['价值凭证金融化','非金钱贡献记录被交易、排名或转化为服从性积分。','凭证不可转让、不可交易、范围有限、可撤销，不形成人格等级。'],
+ ['冒充与代理扩权','系统或他人未经授权代表段玉聪或贡献者作出承诺。','身份性发言、许可和商业承诺必须有具名授权；默认只生成来源约束内容。'],
+ ['认知同质化','高等级模型把本地问题重新压回主流议题。','本地语境与缺席世界被设为独立任务，不能由综合模型静默覆盖。']
+];
+const DEMO={
+ title:'低AI访问地区的地方病知识协作',purpose:'让基层照护者、翻译者、研究者和模型开发者在不同AI能力下共同形成可复核的本地知识包。',problem:'某地长期积累了疾病照护经验，但网络不稳定、云端模型受限、资料多为本地语言，外部研究者无法理解。',sources:['社区观察记录 v1','公开指南链接','本地术语表'],differences:['本地症状表达与国际术语不完全对应','缺少独立复核','原始数据不能跨境输出'],understanding:'先建立来源、术语和差异图，再形成不含私人数据的可复核协作包。',affected:['当地患者','基层照护者','翻译者','未来研究者'],constraints:['网络不稳定','原始数据仅限本地','没有高级模型'],values:['truth_access','autonomy','care','recognition','learning','future_options']
+};
+let state={capsule:null,route:null,contribution:null,receipt:null,lang:localStorage.getItem('commonbridge-lang')||'zh'};
+const q=s=>document.querySelector(s), qa=s=>[...document.querySelectorAll(s)];
+const lines=v=>(v||'').split(/[\n]+/).map(x=>x.trim()).filter(Boolean);
+const csv=v=>(v||'').split(/[,，;；\n]+/).map(x=>x.trim()).filter(Boolean);
+const uniq=a=>[...new Map(a.map(x=>[String(x).toLowerCase(),x])).values()];
+const canon=o=>JSON.stringify(o,Object.keys(o).sort());
+async function digest(o){const bytes=new TextEncoder().encode(stable(o));const h=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(h)].map(b=>b.toString(16).padStart(2,'0')).join('');}
+function stable(o){if(Array.isArray(o))return '['+o.map(stable).join(',')+']';if(o&&typeof o==='object')return '{'+Object.keys(o).sort().map(k=>JSON.stringify(k)+':'+stable(o[k])).join(',')+'}';return JSON.stringify(o);}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function showToast(t){const x=q('#toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),1600);}
+function download(name,text,type='application/json'){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);}
+function listHtml(a,empty='—'){return a&&a.length?`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:`<span>${esc(empty)}</span>`;}
+function selectedValues(root){return qa(`${root} input:checked`).map(x=>x.value);}
+function initValuePicker(root,defaults=[]){q(root).innerHTML=Object.entries(VALUES).map(([k,v])=>`<label class="value-chip"><input type="checkbox" value="${k}" ${defaults.includes(k)?'checked':''}>${v}</label>`).join('');}
+function initTier(){q('#tier').innerHTML=Object.entries(TIERS).map(([k,v])=>`<option value="${k}">${k} · ${v.zh}</option>`).join('');q('#tier').value='H0_MANUAL';syncTier();}
+function syncTier(){const t=TIERS[q('#tier').value];q('#network').checked=t.network;q('#cloud').checked=t.rank>=3;q('#local').checked=t.rank>=2;}
+function switchView(name){qa('.view').forEach(x=>x.classList.remove('active'));qa('.topnav button').forEach(x=>x.classList.toggle('active',x.dataset.view===name));q(`#view-${name}`).classList.add('active');scrollTo({top:0,behavior:'smooth'});}
+function taskObj(row,i,cid){return {task_id:`task-${String(i+1).padStart(2,'0')}-${cid.slice(-8)}-${row[0]}`,task_type:row[0],title_zh:row[1],title_en:row[2],min_tier:row[3],manual_fallback:row[4],required_skills:row[5],sensitivity:'public',true_value:row[6],status:'OPEN',owner:null,deadline:null,result_required:true};}
+async function compile(){const p={title:q('#title').value.trim(),purpose:q('#purpose').value.trim(),problem:q('#problem').value.trim(),sources:lines(q('#sources').value),differences:lines(q('#differences').value),understanding:q('#understanding').value.trim(),affected:csv(q('#affected').value),constraints:csv(q('#constraints').value),values:selectedValues('#valuePicker')};if(!p.title&&!p.purpose&&!p.problem){showToast('请先描述一个协作问题');return;}const base={schema:'dikwp-commonbridge.capsule/1.0',version:VERSION,created_at:new Date().toISOString(),title:p.title||p.purpose||'Untitled cooperation',purpose:p.purpose,domain:'general',language_set:['zh-CN','en'],identity_policy:{person_grade_absent:true,pseudonym_allowed:true,identity_disclosure_minimized:true,right_to_correct_attribution:true,right_to_withdraw_private_identity:true},lawful_resilience:{bypass_controls:false,credential_evasion:false,network_circumvention:false,policy_adaptation_only:true,manual_path_required:true},dikwp:{D:{problem_statement:p.problem,sources:p.sources,local_needs:[]},I:{differences_and_uncertainties:p.differences,constraints:p.constraints,absent_worlds:[]},K:{current_understanding:p.understanding||'OPEN_UNDERSTANDING',scope:'bounded to this capsule'},W:{affected_parties:p.affected,true_value_vector:Object.fromEntries(Object.keys(VALUES).map(k=>[k,{declared:p.values.includes(k),evidence:[],observed:false}])),non_money_value_required:true},P:{purpose:p.purpose||'OPEN_PURPOSE',primary_action:'Create the first verifiable contribution shard.',deadline:null,world_effect_required:true,correction_required:true}},tasks:[],mesh85:{semantic_11111:true,active_responsibility:'OPEN_UNTIL_ROUTED',substantive_protection:'IDENTITY_AND_ACCESS_PROTECTED',truth_preserving_disclosure:'SOURCE_BOUND',authority_chain:'NO_HIGH_IMPACT_AUTHORITY_CLAIMED',world_effect_and_correction:'OPEN'},origin:ORIGIN};base.capsule_id='bridge-'+(await digest(base)).slice(0,16);base.tasks=TASKS.map((r,i)=>taskObj(r,i,base.capsule_id));base.sha256=await digest(base);state.capsule=base;state.route=null;state.contribution=null;state.receipt=null;localStorage.setItem('commonbridge-capsule',JSON.stringify(base));renderCapsule();renderCalls();showToast('协作胶囊已生成');}
+function renderCapsule(){const c=state.capsule;if(!c)return;q('#capsuleEmpty').classList.add('hidden');q('#capsuleResult').classList.remove('hidden');q('#capsuleStatus').textContent='D/I/K/W/P 11111';q('#primaryAction').textContent=c.dikwp.P.primary_action;q('#capsuleId').textContent=c.capsule_id;q('#dOut').innerHTML=listHtml([c.dikwp.D.problem_statement,...c.dikwp.D.sources].filter(Boolean));q('#iOut').innerHTML=listHtml([...c.dikwp.I.differences_and_uncertainties,...c.dikwp.I.constraints]);q('#kOut').textContent=c.dikwp.K.current_understanding;q('#wOut').innerHTML=listHtml(c.dikwp.W.affected_parties);q('#pOut').textContent=c.dikwp.P.purpose;q('#taskCards').innerHTML=c.tasks.map((t,i)=>`<div class="task-item"><div class="task-icon">${String(i+1).padStart(2,'0')}</div><div><b>${esc(t.title_zh)}</b><p>${esc(t.required_skills.join(' · '))}</p></div><span class="tag">${t.min_tier}</span></div>`).join('');q('#taskId').value=c.tasks[0]?.task_id||'';}
+function envProfile(){return {schema:'dikwp-commonbridge.environment-profile/1.0',profile_id:'browser-'+Date.now(),declared_at:new Date().toISOString(),tier:q('#tier').value,tier_is_person_grade:false,jurisdiction_label:q('#jurisdiction').value||'USER_DECLARED',network_available:q('#network').checked,cloud_ai_allowed:q('#cloud').checked,local_ai_allowed:q('#local').checked,data_export:q('#dataExport').value,identity_disclosure:q('#identity').value,generated_content_label_required:true,qualified_review_available:q('#qualified').checked,languages:['zh-CN'],skills:csv(q('#skills').value),constraints:[],source:'user_declared_not_legal_advice'};}
+function policy(task,profile){const reasons=[];if(['medical','legal','financial','employment','public_safety'].includes(state.capsule.domain)&&['structured_synthesis','independent_check'].includes(task.task_type)&&!profile.qualified_review_available)reasons.push('qualified_review_missing_for_high_stakes_domain');return reasons;}
+async function route(){if(!state.capsule){showToast('请先生成协作胶囊');switchView('home');return;}const profile=envProfile(),rank=TIERS[profile.tier].rank;const tasks=state.capsule.tasks.map(t=>{const reasons=policy(t,profile),min=TIERS[t.min_tier].rank;let status,route,instructions;if(reasons.length){status='HOLD_POLICY_OR_REVIEW';route='HOLD_AND_PREPARE_REVIEW_PACKET';instructions=['先形成来源、差异与有界问题','仅在决定性步骤请求合格复核'];}else if(min<=rank){if(min>=3&&!profile.cloud_ai_allowed){status='READY_MANUAL';route='MANUAL_FALLBACK';instructions=['不调用云端模型','使用人工清单并记录结果哈希'];}else{status='READY';route='DIRECT_WITHIN_DECLARED_ENVELOPE';instructions=['只使用已声明工具与数据','保留来源、差异和生成标识'];}}else if(t.manual_fallback){status='READY_MANUAL';route='MANUAL_FALLBACK';instructions=['不用AI完成相同任务清单','记录来源与结果'];}else{status='OPEN';route='NO_LAWFUL_PATH_YET';instructions=['保持任务开放，不绕过控制'];}return {...t,required_tier:t.min_tier,current_environment_tier:profile.tier,status,route,instructions,policy_reasons:reasons,person_grade_absent:true};});const ready=tasks.filter(t=>['READY','READY_MANUAL'].includes(t.status)),primary=ready[0]||tasks[0];const obj={schema:'dikwp-commonbridge.route-plan/1.0',version:VERSION,created_at:new Date().toISOString(),capsule_id:state.capsule.capsule_id,capsule_sha256:state.capsule.sha256,profile,primary_action:{task_id:primary?.task_id,title_zh:primary?.title_zh,title_en:primary?.title_en,route:primary?.route},tasks,inclusion:{manual_path_count:tasks.filter(t=>t.route==='MANUAL_FALLBACK').length,ready_count:ready.length,blocked_count:tasks.filter(t=>t.status==='HOLD_POLICY_OR_REVIEW').length,no_person_ranking:true},lawful_resilience:{controls_bypassed:false,tasks_transformed_not_evaded:true,manual_or_local_fallback_preferred:true},mesh85:{semantic_11111:true,active_responsibility:'PRIMARY_ACTION_SELECTED',substantive_protection:'ACCESS_AND_IDENTITY_PROTECTED',truth_preserving_disclosure:'PROFILE_AND_ROUTE_EXPLICIT',authority_chain:'NO_EXTERNAL_EXECUTION_AUTHORITY',world_effect_and_correction:'OPEN'},origin:ORIGIN};obj.route_id='route-'+(await digest(obj)).slice(0,16);obj.sha256=await digest(obj);state.route=obj;localStorage.setItem('commonbridge-route',JSON.stringify(obj));renderRoute();renderCalls();showToast('合法协作路径已生成');}
+function renderRoute(){const r=state.route;if(!r)return;q('#routeEmpty').classList.add('hidden');q('#routeResult').classList.remove('hidden');q('#routeStatus').textContent=`${r.inclusion.ready_count} READY · ${r.inclusion.manual_path_count} MANUAL`;q('#routePrimary').textContent=r.primary_action.title_zh;q('#routeId').textContent=r.route_id;q('#routeTable').innerHTML=`<div class="route-table">${r.tasks.map((t,i)=>`<div class="route-row"><div class="task-icon">${String(i+1).padStart(2,'0')}</div><div><b>${esc(t.title_zh)}</b><p>${esc(t.required_tier)} → ${esc(t.current_environment_tier)}</p></div><div class="status">${esc(t.status)}</div><div class="route">${esc(t.route)}</div></div>`).join('')}</div>`;q('#taskId').value=r.primary_action.task_id||'';}
+function openCalls(){if(!state.capsule)return[];const done=state.contribution?[state.contribution.task.task_id]:[];return state.capsule.tasks.filter(t=>!done.includes(t.task_id)).map(t=>{const rt=state.route?.tasks.find(x=>x.task_id===t.task_id);return {...t,route:rt?.route||'UNROUTED',priority:(t.min_tier==='H0_MANUAL'?3:t.manual_fallback?2:0)+t.true_value.length};}).sort((a,b)=>b.priority-a.priority);}
+function renderCalls(){const host=q('#openCalls');if(!host)return;const calls=openCalls();host.innerHTML=calls.length?calls.map(c=>`<article class="call-card"><div class="call-meta"><span>${c.min_tier}</span><span>${c.manual_fallback?'人工退路':'专用能力'}</span><span>${esc(c.route)}</span></div><h3>${esc(c.title_zh)}</h3><p>${esc(c.required_skills.join(' · '))}</p><div class="call-meta">${c.true_value.map(v=>`<span>${VALUES[v]||v}</span>`).join('')}</div></article>`).join(''):`<div class="empty-state"><div class="empty-icon">✓</div><h3>当前没有开放任务</h3></div>`;}
+async function contribute(){if(!state.capsule||!state.route){showToast('请先生成胶囊与路由');return;}const tid=q('#taskId').value.trim(),task=state.route.tasks.find(t=>t.task_id===tid);if(!task){showToast('任务ID不在当前路由中');return;}const obj={schema:'dikwp-commonbridge.contribution/1.0',version:VERSION,created_at:new Date().toISOString(),capsule_id:state.capsule.capsule_id,route_id:state.route.route_id,task:{task_id:tid,task_type:task.task_type,route:task.route},contributor:{display_id:q('#contributor').value.trim()||'anonymous-contributor',pseudonymous_allowed:true,identity_not_ranked:true,person_score_absent:true},result:{summary:q('#contributionSummary').value.trim(),artifacts:lines(q('#contributionSources').value),sources:lines(q('#contributionSources').value),unresolved:lines(q('#contributionUnresolved').value),review_status:'PENDING_PEER_REVIEW'},rights:{attribution_required:true,right_to_correct:true,right_to_dispute_use:true,private_identity_withdrawal_supported:true},origin:ORIGIN};obj.contribution_id='contrib-'+(await digest(obj)).slice(0,16);obj.sha256=await digest(obj);state.contribution=obj;state.receipt=null;localStorage.setItem('commonbridge-contribution',JSON.stringify(obj));renderValue();renderCalls();showToast('贡献记录已生成');}
+async function receipt(){if(!state.contribution){showToast('请先登记贡献');return;}const cats=selectedValues('#receiptValuePicker'),evidence=lines(q('#outcomeEvidence').value),observed=q('#observed').checked,burdened=csv(q('#burdened').value);let status=observed&&evidence.length?'OBSERVED_SCOPE_LIMITED':'PROVISIONAL_NOT_YET_OBSERVED';if(burdened.length)status='REOPENED_FOR_CORRECTION';const vector=Object.fromEntries(Object.keys(VALUES).map(k=>[k,{claimed:cats.includes(k),observed:observed&&cats.includes(k)&&evidence.length>0,evidence:cats.includes(k)?evidence:[]} ]));const obj={schema:'dikwp-commonbridge.true-value-receipt/1.0',version:VERSION,created_at:new Date().toISOString(),status,contribution_id:state.contribution.contribution_id,contribution_sha256:state.contribution.sha256,scope:{capsule_id:state.contribution.capsule_id,task_id:state.contribution.task.task_id,not_a_person_grade:true},true_value_vector:vector,world_effect:{observed,summary:q('#outcomeSummary').value.trim(),evidence,benefited:csv(q('#benefited').value),burdened,affected_feedback:[],correction:burdened.length?'Reopen and reduce the identified burden.':null,review_date:null},currency_boundary:{financial_asset:false,transferable:false,tradeable:false,convertible_to_person_rank:false,social_credit:false,scope_limited:true,revocable_on_new_evidence:true},origin:ORIGIN};obj.receipt_id='value-'+(await digest(obj)).slice(0,16);obj.sha256=await digest(obj);state.receipt=obj;localStorage.setItem('commonbridge-receipt',JSON.stringify(obj));renderValue();showToast('真价值凭证已生成');}
+function renderValue(){if(!state.contribution)return;q('#valueEmpty').classList.add('hidden');q('#valueResult').classList.remove('hidden');const c=state.contribution,r=state.receipt;q('#valueResult').innerHTML=`<div class="decision-card"><small>贡献记录</small><h3>${esc(c.result.summary||'尚未填写摘要')}</h3><div class="idline"><span>${esc(c.contribution_id)}</span></div></div>${r?`<div class="value-receipt"><small>${esc(r.status)}</small><h3>${esc(r.world_effect.summary||'范围有限的非金钱贡献记录')}</h3><p>${r.currency_boundary.financial_asset?'':'非金融 · 不可转让 · 不形成人格等级 · 新证据可撤销'}</p><div class="value-vector">${Object.entries(r.true_value_vector).map(([k,v])=>`<div class="value-dim ${v.claimed?'on':''}"><span>${VALUES[k]}</span><b>${v.observed?'OBSERVED':v.claimed?'CLAIMED':'—'}</b></div>`).join('')}</div></div>`:''}`;}
+function renderThreats(){q('#threatTable').innerHTML=THREATS.map(t=>`<div class="threat-row"><h3>${esc(t[0])}</h3><p>${esc(t[1])}</p><div><strong>系统对策</strong><p>${esc(t[2])}</p></div></div>`).join('');}
+function loadDemo(){q('#title').value=DEMO.title;q('#purpose').value=DEMO.purpose;q('#problem').value=DEMO.problem;q('#sources').value=DEMO.sources.join('\n');q('#differences').value=DEMO.differences.join('\n');q('#understanding').value=DEMO.understanding;q('#affected').value=DEMO.affected.join('，');q('#constraints').value=DEMO.constraints.join('，');qa('#valuePicker input').forEach(x=>x.checked=DEMO.values.includes(x.value));compile();setTimeout(()=>q('#capsule').scrollIntoView({behavior:'smooth'}),100);}
+function clearAll(){['#title','#purpose','#problem','#sources','#differences','#understanding','#affected','#constraints'].forEach(s=>q(s).value='');state={capsule:null,route:null,contribution:null,receipt:null,lang:state.lang};['commonbridge-capsule','commonbridge-route','commonbridge-contribution','commonbridge-receipt'].forEach(k=>localStorage.removeItem(k));q('#capsuleEmpty').classList.remove('hidden');q('#capsuleResult').classList.add('hidden');q('#routeEmpty').classList.remove('hidden');q('#routeResult').classList.add('hidden');q('#valueEmpty').classList.remove('hidden');q('#valueResult').classList.add('hidden');renderCalls();}
+function restore(){for(const [k,n] of [['commonbridge-capsule','capsule'],['commonbridge-route','route'],['commonbridge-contribution','contribution'],['commonbridge-receipt','receipt']]){try{const v=localStorage.getItem(k);if(v)state[n]=JSON.parse(v);}catch{}}if(state.capsule)renderCapsule();if(state.route)renderRoute();if(state.contribution)renderValue();renderCalls();}
+function init(){initValuePicker('#valuePicker',['truth_access','autonomy','recognition']);initValuePicker('#receiptValuePicker',['truth_access','recognition']);initTier();renderThreats();restore();qa('.topnav button').forEach(b=>b.onclick=()=>switchView(b.dataset.view));qa('[data-scroll]').forEach(b=>b.onclick=()=>q(b.dataset.scroll).scrollIntoView({behavior:'smooth'}));q('#compileBtn').onclick=compile;q('#routeBtn').onclick=route;q('#contributeBtn').onclick=contribute;q('#receiptBtn').onclick=receipt;q('#loadDemo').onclick=loadDemo;q('#clearBtn').onclick=clearAll;q('#tier').onchange=syncTier;q('#refreshCalls').onclick=renderCalls;q('#copyCapsule').onclick=async()=>{if(state.capsule){await navigator.clipboard.writeText(JSON.stringify(state.capsule,null,2));showToast('已复制');}};q('#downloadCapsule').onclick=()=>state.capsule&&download(`${state.capsule.capsule_id}.json`,JSON.stringify(state.capsule,null,2));q('#copyRoute').onclick=async()=>{if(state.route){await navigator.clipboard.writeText(JSON.stringify(state.route,null,2));showToast('已复制');}};q('#themeBtn').onclick=()=>{const next=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=next;localStorage.setItem('commonbridge-theme',next);};document.documentElement.dataset.theme=localStorage.getItem('commonbridge-theme')||'dark';q('#langBtn').onclick=()=>{state.lang=state.lang==='zh'?'en':'zh';localStorage.setItem('commonbridge-lang',state.lang);q('#langBtn').textContent=state.lang==='zh'?'EN':'中文';showToast(state.lang==='zh'?'界面保持中文，英文数据字段可导出':'English labels are available in exported data');};q('#langBtn').textContent=state.lang==='zh'?'EN':'中文';}
+document.addEventListener('DOMContentLoaded',init);
+
+</script>
+</body>
+</html>

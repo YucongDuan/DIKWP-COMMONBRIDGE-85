@@ -1,0 +1,21 @@
+name: Attribution or use dispute
+about: Challenge provenance, attribution, scope or claimed world effect
+body:
+  - type: input
+    id: object
+    attributes:
+      label: Capsule, contribution or receipt ID
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: What is inaccurate or outside scope?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and requested correction
+    validations:
+      required: true

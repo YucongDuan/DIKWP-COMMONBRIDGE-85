@@ -1,0 +1,777 @@
+{
+  "schema": "safe-source-preparation/v1",
+  "status": "STRUCTURALLY_PREPARED_UNTESTED",
+  "prepared_at_utc": "2026-09-07T05:18:29.200610+00:00",
+  "source": {
+    "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0.zip",
+    "archive_bytes": 960699,
+    "sha256": "7f4228a3138f9185d4270f335da6626e97328782d09787f1181cf86f5d02ca4e",
+    "source_url": "https://raw.githubusercontent.com/YucongDuan/DIKWP-COMMONBRIDGE-85/6592be732834c6f54965f878bc038fbe9f74f76e/DIKWP_COMMONBRIDGE_85_v1.0.0.zip",
+    "original_unchanged": true
+  },
+  "destination": "source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44",
+  "unwrapped_directory": "DIKWP_COMMONBRIDGE_85_v1.0.0",
+  "project_marker_directories": [
+    "."
+  ],
+  "limits": {
+    "max_entries": 20000,
+    "max_file_bytes": 103809024,
+    "max_total_bytes": 536870912,
+    "max_archive_bytes": 104857600,
+    "max_ratio": 200.0,
+    "max_path_depth": 64,
+    "max_path_bytes": 1024
+  },
+  "workflows": {
+    "included_in_source": false,
+    "authority": "",
+    "executed": false,
+    "default": "quarantine"
+  },
+  "warnings": [
+    "GitHub workflows require explicit human review before activation."
+  ],
+  "files": [
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/.github/ISSUE_TEMPLATE/attribution-dispute.yml",
+      "output_path": "source/.github/ISSUE_TEMPLATE/attribution-dispute.yml",
+      "kind": "file",
+      "bytes": 519,
+      "sha256": "52bfeefa856eaccca583740e98221bae126f04debdb83669c59216f803b4c24e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/.github/ISSUE_TEMPLATE/collaboration.yml",
+      "output_path": "source/.github/ISSUE_TEMPLATE/collaboration.yml",
+      "kind": "file",
+      "bytes": 702,
+      "sha256": "9275769bd491e940e2197b3464948d46eb03481405e201c3059843849d68a3ea",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/.github/PULL_REQUEST_TEMPLATE.md",
+      "output_path": "source/.github/PULL_REQUEST_TEMPLATE.md",
+      "kind": "file",
+      "bytes": 372,
+      "sha256": "43995cee6da46effbb178bb326eeded6991fc532ee105a79f2bfee2e3d077f16",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/.github/workflows/ci.yml",
+      "output_path": "review-quarantine/.github/workflows/ci.yml",
+      "kind": "file",
+      "bytes": 229,
+      "sha256": "4fae7b6b7c54fee6bfb02fe7ab657d113684ff90124be92c3365c619dc9ab584",
+      "original_mode": "0o100644",
+      "quarantined": true
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/.github/workflows/pages.yml",
+      "output_path": "review-quarantine/.github/workflows/pages.yml",
+      "kind": "file",
+      "bytes": 492,
+      "sha256": "5f7f865ab7c66d7d33ab38393d9fb9816b37100391d0001598477ef727e9323a",
+      "original_mode": "0o100644",
+      "quarantined": true
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/.gitignore",
+      "output_path": "source/.gitignore",
+      "kind": "file",
+      "bytes": 99,
+      "sha256": "cd515f98260a78e58d272386ed6325a5466f988bb388ea13b0631e94a0142648",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/ATTENTION_AND_GATEKEEPER_THREAT_MODEL.md",
+      "output_path": "source/ATTENTION_AND_GATEKEEPER_THREAT_MODEL.md",
+      "kind": "file",
+      "bytes": 647,
+      "sha256": "12e607565996a02ec26d74d40fb3cc989ffb21411f8def78f933e6157daacab9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/CHANGELOG.md",
+      "output_path": "source/CHANGELOG.md",
+      "kind": "file",
+      "bytes": 460,
+      "sha256": "1f772c5be8ec1c9cc1b4ed5e3e61a29fe2a99b881f0ac7b91d00c5e9e95e8e18",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/CITATION.cff",
+      "output_path": "source/CITATION.cff",
+      "kind": "file",
+      "bytes": 617,
+      "sha256": "93146d417eaa48821a605df5e8fb0c74bfd91a78ab827ac36ce5040f27f5526c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/CODE_OF_CONDUCT.md",
+      "output_path": "source/CODE_OF_CONDUCT.md",
+      "kind": "file",
+      "bytes": 355,
+      "sha256": "6e66a904c5b600db357e40bcd875bc4aa1398ad88c48984aad05b751e79214a8",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/COMMONBRIDGE85_离线展示_双击打开_v1.0.0.html",
+      "output_path": "source/COMMONBRIDGE85_离线展示_双击打开_v1.0.0.html",
+      "kind": "file",
+      "bytes": 58113,
+      "sha256": "38a1afcebbd31ff79fe920853be96096c66abe175d5dabd11738d786d8375682",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/CONTRIBUTING.md",
+      "output_path": "source/CONTRIBUTING.md",
+      "kind": "file",
+      "bytes": 849,
+      "sha256": "562e4dea11b44db3522a493539c0d226142eed756ffe5a6e20254c3fa4a73dd1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/FOUNDER_ENERGY_COMPACT.md",
+      "output_path": "source/FOUNDER_ENERGY_COMPACT.md",
+      "kind": "file",
+      "bytes": 733,
+      "sha256": "4165e5fc534a2b8d3c90b99b6f015c2b7a22825253b74c93e89629f469abb387",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/GOVERNANCE.md",
+      "output_path": "source/GOVERNANCE.md",
+      "kind": "file",
+      "bytes": 965,
+      "sha256": "b98387d616b37b92cbd92a95c7b4709717cbd671158344be4fbd4d43954140fa",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/LAUNCH_90_DAYS.md",
+      "output_path": "source/LAUNCH_90_DAYS.md",
+      "kind": "file",
+      "bytes": 1051,
+      "sha256": "89c8343552e813dc702fff3025399b7be995589d2da8b00a99844775a9b57767",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/LICENSE",
+      "output_path": "source/LICENSE",
+      "kind": "file",
+      "bytes": 9428,
+      "sha256": "57a2d7ed8a1ab4299dc33433790e7586b2b94b61eec85f7b711623af4c3b30cc",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/MAINTAINER_AND_SUCCESSION_PROTOCOL.md",
+      "output_path": "source/MAINTAINER_AND_SUCCESSION_PROTOCOL.md",
+      "kind": "file",
+      "bytes": 1329,
+      "sha256": "7b2146cc26077bd30ae0f7c490386a6af8cf2c8976d5bfb5f3c8570d904668ab",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/MANIFEST.sha256",
+      "output_path": "source/MANIFEST.sha256",
+      "kind": "file",
+      "bytes": 7505,
+      "sha256": "3388a147ae15161780f9897fc033839fca565bc7bcb3ad42f76530661923b1d6",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/Makefile",
+      "output_path": "source/Makefile",
+      "kind": "file",
+      "bytes": 260,
+      "sha256": "59fbdecf716cae667a1682c3195e63702f787c04a87347f8c8f1ef8c90b787fa",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/NOTICE",
+      "output_path": "source/NOTICE",
+      "kind": "file",
+      "bytes": 447,
+      "sha256": "3696158ea23682a838c00b58fcebcb4230b9c6f19973934d51f497b23808561f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/POLICY_PROFILE_GUIDE.md",
+      "output_path": "source/POLICY_PROFILE_GUIDE.md",
+      "kind": "file",
+      "bytes": 830,
+      "sha256": "cd2871fc77835810287b870f05b9646aafd2cb5f643926879bf49236c392e4c9",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/PORTFOLIO_363_ANALYSIS.md",
+      "output_path": "source/PORTFOLIO_363_ANALYSIS.md",
+      "kind": "file",
+      "bytes": 2047,
+      "sha256": "70ccd7411650fe221787866f186e31624e8633e98b0d7f5dbc4a0a31d72f570d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/PUBLIC_LAUNCH_CHECKLIST.md",
+      "output_path": "source/PUBLIC_LAUNCH_CHECKLIST.md",
+      "kind": "file",
+      "bytes": 1633,
+      "sha256": "13a5def17549d36e04b6eb2fc293c6ee4dd77cd30e3dd6f7b7ea74917aaf8b31",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/PUBLIC_LAUNCH_TEXT.md",
+      "output_path": "source/PUBLIC_LAUNCH_TEXT.md",
+      "kind": "file",
+      "bytes": 606,
+      "sha256": "e9cd03ba95166bc2f068d3e19117c5e510fdf9a78a1d6e2f326e60af5dc6f642",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/QA_SUMMARY.json",
+      "output_path": "source/QA_SUMMARY.json",
+      "kind": "file",
+      "bytes": 827,
+      "sha256": "d3fcdd570e74dc951eb4f6678f60919eca0dfdcff5da3f03f5259ef60efe6001",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/README.md",
+      "output_path": "source/README.md",
+      "kind": "file",
+      "bytes": 4895,
+      "sha256": "06d8fc1a5b66c8b291a849e03dd1fac7009d5fa1d13145862f9d227d1845ab7c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/README.zh-CN.md",
+      "output_path": "source/README.zh-CN.md",
+      "kind": "file",
+      "bytes": 2791,
+      "sha256": "260ad22ec9d2d1a4608ba6480582ad079a74e4143a8acd24e02d5075bbdbeeea",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/ROADMAP.md",
+      "output_path": "source/ROADMAP.md",
+      "kind": "file",
+      "bytes": 723,
+      "sha256": "d1d368d47a88fe9bf7e561da01519dad989caffcca386b2b9c1465154376d827",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/SECURITY.md",
+      "output_path": "source/SECURITY.md",
+      "kind": "file",
+      "bytes": 624,
+      "sha256": "0758249643cfa748e18c6b14fdb78924e077b3b3c644eff2e7dcdb8488a9cb30",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/START_COMMONBRIDGE85.sh",
+      "output_path": "source/START_COMMONBRIDGE85.sh",
+      "kind": "file",
+      "bytes": 74,
+      "sha256": "629f4721bde1d4b479581792e9ee757e9b78c16aba2f6c1fb7e71768bcff3898",
+      "original_mode": "0o100755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/START_DEMO.command",
+      "output_path": "source/START_DEMO.command",
+      "kind": "file",
+      "bytes": 59,
+      "sha256": "710c0525b48d5096dce40fec638b2f2342cff00217600b00a90db24ff272c1f1",
+      "original_mode": "0o100755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/SUPPORT.md",
+      "output_path": "source/SUPPORT.md",
+      "kind": "file",
+      "bytes": 335,
+      "sha256": "da19bd2f516ed58d1f9e60fe024e50f72d61aff1cc3694a13b5ecc468df5ecc0",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/TRUE_VALUE_CHARTER.md",
+      "output_path": "source/TRUE_VALUE_CHARTER.md",
+      "kind": "file",
+      "bytes": 658,
+      "sha256": "d7f1d45a2501a07a2c3b65d523461ecb75a2f4882c8d1890e5a9cb1b6717c41e",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/assets/app.js",
+      "output_path": "source/assets/app.js",
+      "kind": "file",
+      "bytes": 23279,
+      "sha256": "4097af8541f163023aecfb9811e3ddc84ad4d1f2503b36a2164518be8170921a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/assets/logo.svg",
+      "output_path": "source/assets/logo.svg",
+      "kind": "file",
+      "bytes": 782,
+      "sha256": "3a3c9d82dddb52278dc9db31e630584a04ac98aa73d4cf45a12d9c6a8012e9b4",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/assets/styles.css",
+      "output_path": "source/assets/styles.css",
+      "kind": "file",
+      "bytes": 15112,
+      "sha256": "cc5e72ebc146e87f4589ee8987c9020bfed47bcbafe3c6186a1648f2f8b7988f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/commonbridge85/__init__.py",
+      "output_path": "source/commonbridge85/__init__.py",
+      "kind": "file",
+      "bytes": 679,
+      "sha256": "d349feb9c167019a2ec4a8c600d317330b5ce1df30f633d264cdb3dc336e2048",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/commonbridge85/cli.py",
+      "output_path": "source/commonbridge85/cli.py",
+      "kind": "file",
+      "bytes": 3755,
+      "sha256": "ea37deed83fd946b624443a2a2e2572d14ae6943c768f4fc2b231fc48554a7e1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/commonbridge85/core.py",
+      "output_path": "source/commonbridge85/core.py",
+      "kind": "file",
+      "bytes": 33389,
+      "sha256": "f1a42a0ab54cbecda10c6fd5cacb052fb45e2666051315dc257e9135af9a9ec1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/commonbridge85/server.py",
+      "output_path": "source/commonbridge85/server.py",
+      "kind": "file",
+      "bytes": 6761,
+      "sha256": "ee2b3c75e7c9244c06ac7951737b5d69ade71aa15669a4e655386058ac7d9ddb",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/commonbridge85/store.py",
+      "output_path": "source/commonbridge85/store.py",
+      "kind": "file",
+      "bytes": 6251,
+      "sha256": "8fdba5151dade34ef427062b35c4b50b4f9d5ac31a106eca63f903d7979f9fac",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/data/origin.json",
+      "output_path": "source/data/origin.json",
+      "kind": "file",
+      "bytes": 238,
+      "sha256": "6c3c2b6be3ef95aa985a9b8880c427ee510f1ad09ff30fe4e4833058efc5f817",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/data/portfolio_snapshot_2026-08-18.json",
+      "output_path": "source/data/portfolio_snapshot_2026-08-18.json",
+      "kind": "file",
+      "bytes": 626,
+      "sha256": "f9212acca6e6721e3e9c1a4e2f3a67072077804d8416334bef0ce47ee9d14ec2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/data/threat_model.json",
+      "output_path": "source/data/threat_model.json",
+      "kind": "file",
+      "bytes": 477,
+      "sha256": "1fcc57a5312088065aa32a51e3ba3985958e47951970dff8a8f0c31bf95f2cc5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/data/value_ontology.json",
+      "output_path": "source/data/value_ontology.json",
+      "kind": "file",
+      "bytes": 942,
+      "sha256": "0424f508d3ff89ee892ef38ac80dc6ab2ca0a2242ee52664ee0c47dc46ca0ee6",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/01_architecture.md",
+      "output_path": "source/docs/01_architecture.md",
+      "kind": "file",
+      "bytes": 934,
+      "sha256": "1a92ad7241825422bf0c0e9eea92de0a70f2281e99e00e32d3a59b8ad266d230",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/02_data_model.md",
+      "output_path": "source/docs/02_data_model.md",
+      "kind": "file",
+      "bytes": 824,
+      "sha256": "2d6fd95cf017cc24a7736dabcea55e8f9c0bcc3f00ce2a028b19a59ef196789a",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/03_mesh85.md",
+      "output_path": "source/docs/03_mesh85.md",
+      "kind": "file",
+      "bytes": 523,
+      "sha256": "6328a723c2e08cfbf690661d713c8152a4340963c715dd1b4900487259f0ed78",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/04_policy_sources.md",
+      "output_path": "source/docs/04_policy_sources.md",
+      "kind": "file",
+      "bytes": 1552,
+      "sha256": "2c741b25020b565179563c0ef5bed1bc550eaaf0641b36b73d802aa7faebc583",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/05_public_pilot.md",
+      "output_path": "source/docs/05_public_pilot.md",
+      "kind": "file",
+      "bytes": 726,
+      "sha256": "df6d8496b48acc295d89cf524ff9673ec0707792750f053d2c2fddd11502b196",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/visuals/COMMONBRIDGE85_对抗性人性与开放协作防护图_v1.0.0.png",
+      "output_path": "source/docs/visuals/COMMONBRIDGE85_对抗性人性与开放协作防护图_v1.0.0.png",
+      "kind": "file",
+      "bytes": 182103,
+      "sha256": "09f61f8eba44b32327100cf72ab95375224098132d5be516affe9864c8834170",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/visuals/COMMONBRIDGE85_总体系统架构图_v1.0.0.png",
+      "output_path": "source/docs/visuals/COMMONBRIDGE85_总体系统架构图_v1.0.0.png",
+      "kind": "file",
+      "bytes": 163078,
+      "sha256": "58cbe0e96f67ec9a1b009a93d2fe5b24705d2657ed7630ff86c588681e2552fa",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/visuals/COMMONBRIDGE85_系统界面与价值主张预览_v1.0.0.png",
+      "output_path": "source/docs/visuals/COMMONBRIDGE85_系统界面与价值主张预览_v1.0.0.png",
+      "kind": "file",
+      "bytes": 203307,
+      "sha256": "289078e47cfe0f5dc891dcc73b2f147b52518f63a0b5e7333fd772f23fa25548",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/visuals/COMMONBRIDGE85_能力中立协作编译器图_v1.0.0.png",
+      "output_path": "source/docs/visuals/COMMONBRIDGE85_能力中立协作编译器图_v1.0.0.png",
+      "kind": "file",
+      "bytes": 162203,
+      "sha256": "b410dff39d3a0a9ae4b94a441c333a51300cc8f561aa42bf2278476e4e4a0837",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/docs/visuals/COMMONBRIDGE85_非金钱真价值世界效果闭环图_v1.0.0.png",
+      "output_path": "source/docs/visuals/COMMONBRIDGE85_非金钱真价值世界效果闭环图_v1.0.0.png",
+      "kind": "file",
+      "bytes": 171438,
+      "sha256": "be4627e238b7c2198e575f78205b6eef9d4cadee5af94123840b2815270f9554",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/examples/contribution_local_terms.json",
+      "output_path": "source/examples/contribution_local_terms.json",
+      "kind": "file",
+      "bytes": 454,
+      "sha256": "6e6d24b97a0a9431bfe7fa9d468d8377619d5c625b9b48de76ebe4405183d173",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/examples/cross_border_local_knowledge.json",
+      "output_path": "source/examples/cross_border_local_knowledge.json",
+      "kind": "file",
+      "bytes": 1046,
+      "sha256": "f58c2a423c2483a25b2ddd553995c8020bb5665fe4d1c69403829eb1c348bc89",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/examples/outcome_true_value.json",
+      "output_path": "source/examples/outcome_true_value.json",
+      "kind": "file",
+      "bytes": 553,
+      "sha256": "eec8438bc8ff54ecdc26f8cfd0772b95171995e1e600e55fe293e31bba2fcc47",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/examples/profile_manual_only.json",
+      "output_path": "source/examples/profile_manual_only.json",
+      "kind": "file",
+      "bytes": 433,
+      "sha256": "94ddbeb42d35bdf944e3ebdec67af5ebda7b8b7ae3471bb03e3ff9e018d27b45",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/examples/profile_small_local.json",
+      "output_path": "source/examples/profile_small_local.json",
+      "kind": "file",
+      "bytes": 434,
+      "sha256": "d0b8aa7b41eee7d98984b7232fe8957abf896d125ed085bfc279293de9290e27",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/index.html",
+      "output_path": "source/index.html",
+      "kind": "file",
+      "bytes": 16658,
+      "sha256": "bb581f692c6bff7ab927d297a4fa1834efb03022f6d2aca8d56b6db22d231322",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/manifest.webmanifest",
+      "output_path": "source/manifest.webmanifest",
+      "kind": "file",
+      "bytes": 239,
+      "sha256": "0118ac3029c1f814ef95e1862dc02ca7de5a0fd4cc1002870d832a035952c393",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/outputs/.gitkeep",
+      "output_path": "source/outputs/.gitkeep",
+      "kind": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/pyproject.toml",
+      "output_path": "source/pyproject.toml",
+      "kind": "file",
+      "bytes": 806,
+      "sha256": "47abd8093de1fe0fda2c0c0bc467a3c30240e58c3c4b1d16b95b7d4df9e35672",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/run.py",
+      "output_path": "source/run.py",
+      "kind": "file",
+      "bytes": 93,
+      "sha256": "a56473b5d20b34dc4479638993649ec6e4736bb9c918369c4fc4a4a3b7132f22",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/bundle_manifest.schema.json",
+      "output_path": "source/schemas/bundle_manifest.schema.json",
+      "kind": "file",
+      "bytes": 543,
+      "sha256": "8480ae18c4d58b87adb70689cad96512590085e92245d42a4a7e1921d2970c6f",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/capsule.schema.json",
+      "output_path": "source/schemas/capsule.schema.json",
+      "kind": "file",
+      "bytes": 672,
+      "sha256": "2560f64832f33d3413a3d1b4f16fa45be5a5c5ff6e1e278da1d3884ad209cdb1",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/contribution.schema.json",
+      "output_path": "source/schemas/contribution.schema.json",
+      "kind": "file",
+      "bytes": 466,
+      "sha256": "e7716cf2bd01b179635784a210ffb68918ab37920f5a756c8ed534327aa25f2c",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/environment_profile.schema.json",
+      "output_path": "source/schemas/environment_profile.schema.json",
+      "kind": "file",
+      "bytes": 553,
+      "sha256": "76e409d0f1af0590c76792736911ffbea5a97265429460e6998ce6995c60f633",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/open_calls.schema.json",
+      "output_path": "source/schemas/open_calls.schema.json",
+      "kind": "file",
+      "bytes": 492,
+      "sha256": "de3c7b1d45a6fa967e9c08b4399dd2fb9dd0408e0dc5748fb3919b16736b5c4d",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/route_plan.schema.json",
+      "output_path": "source/schemas/route_plan.schema.json",
+      "kind": "file",
+      "bytes": 541,
+      "sha256": "9cc1df6610162a04bcd7cf4645646102626d5f67aa4048bf33d3a7fbc8549ee2",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/schemas/true_value_receipt.schema.json",
+      "output_path": "source/schemas/true_value_receipt.schema.json",
+      "kind": "file",
+      "bytes": 638,
+      "sha256": "b91016891b385855e56a5c62abe0dd698cfe972a6529af6775a95c279833a047",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/scripts/publish_github.sh",
+      "output_path": "source/scripts/publish_github.sh",
+      "kind": "file",
+      "bytes": 918,
+      "sha256": "8af7a60f7855bc15c8f0c1c38684b4d5de7a3b64f6fff13e4803d08b82b9b020",
+      "original_mode": "0o100755",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/start_showcase.py",
+      "output_path": "source/start_showcase.py",
+      "kind": "file",
+      "bytes": 605,
+      "sha256": "f84c0c06dbb10d0385bd7315041d9476f936c8e5899683920459316e25d73701",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/tests/test_core.py",
+      "output_path": "source/tests/test_core.py",
+      "kind": "file",
+      "bytes": 8677,
+      "sha256": "78ad1c8cc26af6849e5466c7c7562ac3afabd0683fd6c2106ad4baadad091b22",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/tests/test_store.py",
+      "output_path": "source/tests/test_store.py",
+      "kind": "file",
+      "bytes": 1126,
+      "sha256": "b48433c0cc191b72fb32d5c4947ae7989af08d3840c13ab0d2d9517e3fc33afb",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/tools/acceptance.py",
+      "output_path": "source/tools/acceptance.py",
+      "kind": "file",
+      "bytes": 2718,
+      "sha256": "76b322d70046e3142942d4dc6e2ef3f36f669ece71b49a11b151043ca66ebbb5",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/tools/build_manifest.py",
+      "output_path": "source/tools/build_manifest.py",
+      "kind": "file",
+      "bytes": 636,
+      "sha256": "f692d633e217445a18184cf39dcdcb14bc48f6c44ad9f48ae29bc5bbd3b6cb47",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/tools/static_audit.py",
+      "output_path": "source/tools/static_audit.py",
+      "kind": "file",
+      "bytes": 2634,
+      "sha256": "3431044bc4b4cf19df0bf2b5e3abc7c305f1d184041960db2f58c3082e17ea15",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/tools/verify_release.py",
+      "output_path": "source/tools/verify_release.py",
+      "kind": "file",
+      "bytes": 1530,
+      "sha256": "c5ea8fc1d86a67e15bdd7215f7d7a206506c73305583afa65fcebc1e44c3855b",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/var/.gitkeep",
+      "output_path": "source/var/.gitkeep",
+      "kind": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_mode": "0o100644",
+      "quarantined": false
+    },
+    {
+      "archive_path": "DIKWP_COMMONBRIDGE_85_v1.0.0/打开共桥COMMONBRIDGE85.bat",
+      "output_path": "source/打开共桥COMMONBRIDGE85.bat",
+      "kind": "file",
+      "bytes": 139,
+      "sha256": "af7f8173663da7ab1c0053329d681b88c3cd621c64d2d6dfe976afdd22bc4487",
+      "original_mode": "0o100644",
+      "quarantined": false
+    }
+  ],
+  "evidence_boundary": "Safety of ZIP paths/budgets only. No code, install, build, tests, network, git operation, license reassignment, or certification was performed.",
+  "nested_archive_policy": "Each ZIP recursively inspected to bounded depth; all versions preserved; see root SOURCE_PROVENANCE.json."
+}

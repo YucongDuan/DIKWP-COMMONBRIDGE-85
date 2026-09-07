@@ -117,23 +117,3 @@ The current release passed:
 - total: 68/68.
 
 These results establish engineering consistency in synthetic conditions. They are not regulatory certification, proof of real-world value, or production-browser certification.
-
-
-<!-- DIKWP-SOURCE-VISIBILITY-START -->
-## Browse source / 浏览源码
-
-[Source index / 源码入口](SOURCE_INDEX.md) expands the retained archive distribution into browsable files, with archive hashes and per-project provenance. Runtime tests: **NOT_RUN**.
-
-原始压缩包 保留；新增可浏览源码、哈希与来源记录。运行与测试尚未执行，详情见源码入口。
-<!-- DIKWP-SOURCE-VISIBILITY-END -->
-
-
-## Related research navigation / 相关研究导航
-
-Research navigation, not verified software dependencies. / 研究导航，不代表已验证的软件依赖关系。
-
-- [DIKWP-COOPSTACK-](https://github.com/YucongDuan/DIKWP-COOPSTACK-)
-- [DIKWP-MESH-SIWEN-Commons-OS-v1.0](https://github.com/YucongDuan/DIKWP-MESH-SIWEN-Commons-OS-v1.0)
-- [DIKWP-SAIL-v1.0.0](https://github.com/YucongDuan/DIKWP-SAIL-v1.0.0)
-- [OPENCONSTELLATION](https://github.com/YucongDuan/OPENCONSTELLATION)
-- [DIKWP-HepatoScholar-OS](https://github.com/YucongDuan/DIKWP-HepatoScholar-OS)

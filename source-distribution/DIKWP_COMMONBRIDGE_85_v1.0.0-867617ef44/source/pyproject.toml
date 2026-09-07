@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dikwp-commonbridge85"
+version = "1.0.0"
+description = "Capability-neutral, offline-first DIKWP cooperation and non-monetary true-value runtime"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Yucong Duan / DIKWP conceptual origin"}]
+keywords = ["DIKWP", "offline-first", "provenance", "cooperation", "AI access resilience"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent"
+]
+
+[project.scripts]
+commonbridge85 = "commonbridge85.cli:main"
+
+[tool.setuptools]
+packages = ["commonbridge85"]
+
+[tool.setuptools.package-data]
+commonbridge85 = []

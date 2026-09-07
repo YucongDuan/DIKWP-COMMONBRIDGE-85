@@ -1,0 +1,14 @@
+{
+  "profile_id": "small-local-demo",
+  "tier": "A2_SMALL_LOCAL",
+  "jurisdiction_label": "USER_DECLARED",
+  "network_available": false,
+  "cloud_ai_allowed": false,
+  "local_ai_allowed": true,
+  "data_export": "public_only",
+  "identity_disclosure": "minimal",
+  "generated_content_label_required": true,
+  "qualified_review_available": true,
+  "languages": ["zh-CN", "en"],
+  "skills": ["translation", "analysis", "verification"]
+}

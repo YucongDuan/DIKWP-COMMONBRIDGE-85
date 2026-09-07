@@ -1,0 +1,9 @@
+{
+  "contributor": "local-caregiver-01",
+  "task_id": "REPLACE_WITH_TASK_ID",
+  "summary": "Mapped twelve local symptom expressions to source passages and preserved four non-equivalent terms as unresolved.",
+  "artifacts": ["local_terms_map.csv", "difference_notes.md"],
+  "sources": ["community observation record v1", "public guideline"],
+  "unresolved": ["four terms require a bilingual clinical reviewer"],
+  "review_status": "PENDING_PEER_REVIEW"
+}

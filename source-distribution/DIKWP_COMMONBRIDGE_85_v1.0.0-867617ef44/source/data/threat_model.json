@@ -1,0 +1,11 @@
+{
+  "schema": "dikwp-commonbridge.threat-model/1.0",
+  "assumption": "Open cooperation is exposed to credit stripping, unpaid extraction, gatekeeping, policy laundering, poisoning, impersonation, lock-in and value-token gaming.",
+  "non_goals": [
+    "bypass state or platform access controls",
+    "evade export controls or sanctions",
+    "hide AI-generated content labels",
+    "rank persons by ideology or capability",
+    "create a financial or social-credit token"
+  ]
+}

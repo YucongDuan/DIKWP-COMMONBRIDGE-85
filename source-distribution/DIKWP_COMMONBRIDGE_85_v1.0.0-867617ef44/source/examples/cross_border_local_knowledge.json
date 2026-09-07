@@ -1,0 +1,12 @@
+{
+  "title": "Low-access local health knowledge collaboration",
+  "purpose": "Let local caregivers, translators, researchers and tool builders create a source-grounded local knowledge package across different AI access levels.",
+  "problem": "A community has long-term care knowledge, but connectivity is unstable, hosted AI is restricted and most materials use local terminology.",
+  "sources": ["community observation record v1", "public guideline", "local terminology list"],
+  "differences": ["local expressions do not map cleanly to international terminology", "independent review is missing", "raw personal data cannot leave the locality"],
+  "understanding": "Build a source, term and difference map before producing any generalized conclusion.",
+  "affected": ["local patients", "caregivers", "translators", "future researchers"],
+  "constraints": ["unstable network", "raw data local only", "no advanced model"],
+  "true_values": ["truth_access", "autonomy", "care", "recognition", "learning", "future_options"],
+  "domain": "medical"
+}

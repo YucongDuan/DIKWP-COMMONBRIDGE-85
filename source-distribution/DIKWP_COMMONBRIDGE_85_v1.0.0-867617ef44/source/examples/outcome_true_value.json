@@ -1,0 +1,10 @@
+{
+  "observed": true,
+  "summary": "The local terminology map reduced repeated clarification time and enabled an independent reviewer to find two previously hidden scope differences.",
+  "categories": ["truth_access", "recognition", "learning", "time_return"],
+  "evidence": ["review-note-2026-08-18", "time-log-before-after.csv"],
+  "benefited": ["local caregivers", "reviewer", "future translators"],
+  "burdened": [],
+  "affected_feedback": ["local contributors confirmed the four unresolved terms remained visible"],
+  "review_date": "2026-09-18"
+}

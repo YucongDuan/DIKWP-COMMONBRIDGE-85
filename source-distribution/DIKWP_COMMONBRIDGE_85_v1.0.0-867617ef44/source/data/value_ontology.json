@@ -1,0 +1,17 @@
+{
+  "schema": "dikwp-commonbridge.true-value-ontology/1.0",
+  "non_financial": true,
+  "person_ranking_absent": true,
+  "dimensions": {
+    "truth_access": "Improved ability to reach, verify and contest sources.",
+    "autonomy": "Improved capacity to choose, refuse, appeal and act without domination.",
+    "care": "Reduced avoidable suffering and improved mutual support.",
+    "repair": "Restoration after error, harm, exclusion or broken provenance.",
+    "recognition": "Accurate attribution, lineage and contribution acknowledgement.",
+    "learning": "Improved capacity to understand, teach and regenerate knowledge.",
+    "future_options": "More reversible and diverse paths remain available.",
+    "ecological_continuity": "Reduced damage to life-support systems.",
+    "community_trust": "Improved accountable cooperation and contestability.",
+    "time_return": "Reduced wasted attention, repetition and unpaid extraction."
+  }
+}

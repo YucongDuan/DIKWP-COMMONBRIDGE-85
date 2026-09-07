@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.egg-info/
+var/*.db
+var/*.db-*
+outputs/*
+!outputs/.gitkeep

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="任何个体、任何合规AI等级、一个可验证贡献。DIKWP COMMONBRIDGE-85离线优先协作系统。">
+  <title>共桥 COMMONBRIDGE-85</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#07101f">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="COMMONBRIDGE-85 home">
+      <img src="assets/logo.svg" alt="COMMONBRIDGE-85 标志">
+      <span><b>COMMONBRIDGE</b><small>DIKWP · MESH8.5</small></span>
+    </a>
+    <nav class="topnav" aria-label="Main navigation">
+      <button data-view="home" class="active">起点</button>
+      <button data-view="route">能力路由</button>
+      <button data-view="calls">开放任务</button>
+      <button data-view="value">真价值</button>
+      <button data-view="policy">合规韧性</button>
+      <button data-view="threat">威胁模型</button>
+      <button data-view="architecture">架构</button>
+    </nav>
+    <div class="top-actions">
+      <button id="langBtn" class="ghost">EN</button>
+      <button id="themeBtn" class="ghost" aria-label="切换主题">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="view-home" class="view active">
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">INDIVIDUAL AI ACCESS RESILIENCE</div>
+          <h1>任何个体，任何合规AI等级，<br><span>一个可验证贡献。</span></h1>
+          <p>当国家、平台、机构与成本把AI能力分层时，共桥不绕过控制，而是把同一协作编译成<strong>纯人工、本地轻量、受限云端与机构级</strong>多条合法路径。贡献权不再等同于模型访问权。</p>
+          <div class="hero-actions"><button class="primary" data-scroll="#capsule">创建协作胶囊</button><button class="secondary" id="loadDemo">载入跨境开源演示</button></div>
+          <div class="promise-row"><span>无账号</span><span>默认不联网</span><span>不评价个人等级</span><span>非金融真价值</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Capability-neutral collaboration map">
+          <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div>
+          <div class="core-node"><b>D I K W P</b><small>共同语义核心</small></div>
+          <div class="sat sat-1"><b>H0</b><small>纯人工</small></div>
+          <div class="sat sat-2"><b>A2</b><small>本地模型</small></div>
+          <div class="sat sat-3"><b>A3</b><small>受限云端</small></div>
+          <div class="sat sat-4"><b>A5</b><small>机构代理</small></div>
+          <div class="worldline">事实 → 差异 → 协作 → 贡献 → 现实结果</div>
+        </div>
+      </div>
+
+      <div class="metric-strip">
+        <div><strong>363</strong><span>当前公开仓库快照</span></div>
+        <div><strong>6</strong><span>能力环境而非个人等级</span></div>
+        <div><strong>10</strong><span>非金钱真价值维度</span></div>
+        <div><strong>0</strong><span>绕过控制与社会信用</span></div>
+      </div>
+
+      <section id="capsule" class="workspace two-col">
+        <div class="panel form-panel">
+          <div class="panel-head"><div><span class="step">01</span><h2>创建协作胶囊</h2><p>从真实问题开始，不要求先掌握整个DIKWP体系。</p></div><button id="clearBtn" class="icon-btn" title="清空">↺</button></div>
+          <label>协作标题<input id="title" placeholder="例如：把本地疾病经验转化为全球可复核知识"></label>
+          <label>希望共同实现什么<textarea id="purpose" rows="3" placeholder="一句话目的：谁将因此获得什么能力？"></textarea></label>
+          <label>当前问题与语境<textarea id="problem" rows="4" placeholder="事实、现实约束、已经发生的事情"></textarea></label>
+          <div class="field-grid">
+            <label>来源（每行一个）<textarea id="sources" rows="4" placeholder="URL、文件、观察记录、版本"></textarea></label>
+            <label>差异与未知（每行一个）<textarea id="differences" rows="4" placeholder="冲突、缺失、本地差异、尚未表达的问题"></textarea></label>
+          </div>
+          <div class="field-grid">
+            <label>受影响者<input id="affected" placeholder="研究者、患者、社区、未来世代…"></label>
+            <label>现实限制<input id="constraints" placeholder="网络、成本、语言、法规、算力、时间…"></label>
+          </div>
+          <label>当前理解<textarea id="understanding" rows="2" placeholder="可以保持开放，但不能伪装已知"></textarea></label>
+          <div class="value-picker" id="valuePicker" aria-label="非金钱真价值"></div>
+          <button id="compileBtn" class="primary full">生成能力中立协作胶囊</button>
+          <p class="boundary">本系统不提供VPN、代理、凭证规避、出口管制规避或平台限制绕过。它只把任务改写为当前环境中可合法执行的路径。</p>
+        </div>
+
+        <div class="panel result-panel">
+          <div class="panel-head"><div><span class="step">02</span><h2>胶囊结果</h2><p>一个共享核心，多个能力入口。</p></div><div class="badge" id="capsuleStatus">等待输入</div></div>
+          <div id="capsuleEmpty" class="empty-state"><div class="empty-icon">⌁</div><h3>尚未生成胶囊</h3><p>载入演示或填写左侧表单。</p></div>
+          <div id="capsuleResult" class="hidden">
+            <div class="decision-card"><small>唯一首选行动</small><h3 id="primaryAction"></h3><div class="idline"><span id="capsuleId"></span><button id="copyCapsule">复制JSON</button><button id="downloadCapsule">下载</button></div></div>
+            <div class="dikwp-grid">
+              <article class="d-card"><b>D</b><h4>来源与事实</h4><div id="dOut"></div></article>
+              <article class="i-card"><b>I</b><h4>差异与未知</h4><div id="iOut"></div></article>
+              <article class="k-card"><b>K</b><h4>当前理解</h4><div id="kOut"></div></article>
+              <article class="w-card"><b>W</b><h4>受影响世界</h4><div id="wOut"></div></article>
+              <article class="p-card"><b>P</b><h4>目的与行动</h4><div id="pOut"></div></article>
+            </div>
+            <div class="task-list"><h3>能力中立任务分解</h3><div id="taskCards"></div></div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="view-route" class="view">
+      <div class="section-title"><span>CAPABILITY-NEUTRAL COMPILER</span><h1>不让模型访问权决定贡献权</h1><p>描述当前环境，而不是给人永久分级。每个环境档案都有时效，可以随地点、时间与政策改变。</p></div>
+      <div class="workspace two-col route-workspace">
+        <div class="panel form-panel">
+          <div class="panel-head"><div><span class="step">03</span><h2>声明当前环境</h2></div></div>
+          <label>能力环境<select id="tier"></select></label>
+          <div class="toggle-grid">
+            <label class="toggle"><input type="checkbox" id="network"><span></span>网络可用</label>
+            <label class="toggle"><input type="checkbox" id="cloud"><span></span>允许云端AI</label>
+            <label class="toggle"><input type="checkbox" id="local"><span></span>允许本地AI</label>
+            <label class="toggle"><input type="checkbox" id="qualified"><span></span>有合格领域复核者</label>
+          </div>
+          <div class="field-grid"><label>数据输出<select id="dataExport"><option value="public_only">仅公开数据</option><option value="hash_only">仅哈希与汇总</option><option value="local_only">仅本地</option><option value="none">禁止输出</option></select></label><label>身份披露<select id="identity"><option value="pseudonymous">化名</option><option value="minimal">最小披露</option><option value="public">公开</option></select></label></div>
+          <label>司法辖区标签<input id="jurisdiction" value="USER_DECLARED" placeholder="仅用于记录，不提供法律结论"></label>
+          <label>技能<input id="skills" placeholder="翻译、临床、编程、社区经验、复核…"></label>
+          <button id="routeBtn" class="primary full">生成当前环境的合法协作路径</button>
+          <p class="boundary">“能力环境”不是人的价值等级，不用于就业、信贷、社会资格、边境或公民评分。</p>
+        </div>
+        <div class="panel result-panel">
+          <div class="panel-head"><div><span class="step">04</span><h2>路由计划</h2><p>优先保留纯人工和本地路径。</p></div><div class="badge" id="routeStatus">等待胶囊</div></div>
+          <div id="routeEmpty" class="empty-state"><div class="empty-icon">⇄</div><h3>先生成协作胶囊</h3><p>随后系统会为当前环境编译路径。</p></div>
+          <div id="routeResult" class="hidden"><div class="decision-card"><small>当前唯一首选任务</small><h3 id="routePrimary"></h3><div class="idline"><span id="routeId"></span><button id="copyRoute">复制JSON</button></div></div><div id="routeTable"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-calls" class="view">
+      <div class="section-title"><span>PROACTIVE OPEN CALLS</span><h1>系统主动寻找缺失贡献，而不是等待中心机构分配资格</h1><p>优先发布纯人工、本地知识、翻译、独立复核和现实结果任务。</p></div>
+      <div class="panel wide"><div class="panel-head"><div><h2>开放任务雷达</h2><p>没有资金也可以贡献；没有高等级模型也可以贡献。</p></div><button id="refreshCalls" class="secondary">重新生成</button></div><div id="openCalls" class="call-grid"></div></div>
+    </section>
+
+    <section id="view-value" class="view">
+      <div class="section-title"><span>NON-MONETARY TRUE VALUE</span><h1>记录贡献，不把人变成分数</h1><p>真价值凭证不可交易、不可转让、不可形成社会信用，只在具体任务与观察结果范围内成立。</p></div>
+      <div class="workspace two-col">
+        <div class="panel form-panel">
+          <div class="panel-head"><div><span class="step">05</span><h2>登记贡献</h2></div></div>
+          <label>贡献者显示名<input id="contributor" placeholder="可使用化名"></label>
+          <label>任务ID<input id="taskId" placeholder="将自动带入首选任务"></label>
+          <label>贡献摘要<textarea id="contributionSummary" rows="4" placeholder="完成了什么？保留了哪些差异？"></textarea></label>
+          <label>来源与工件<textarea id="contributionSources" rows="3" placeholder="每行一个URL、文件名或内容摘要"></textarea></label>
+          <label>尚未解决<textarea id="contributionUnresolved" rows="2"></textarea></label>
+          <button id="contributeBtn" class="primary full">生成贡献记录</button>
+          <hr>
+          <label>现实结果<textarea id="outcomeSummary" rows="3" placeholder="只有观察到结果后，才能形成观察型真价值凭证"></textarea></label>
+          <div class="field-grid"><label>受益者<input id="benefited" placeholder="谁实际受益"></label><label>负担或伤害<input id="burdened" placeholder="谁承担了什么"></label></div>
+          <label>结果证据<textarea id="outcomeEvidence" rows="3" placeholder="每行一个可复核证据"></textarea></label>
+          <div class="value-picker" id="receiptValuePicker"></div>
+          <label class="toggle"><input type="checkbox" id="observed"><span></span>现实效果已经观察</label>
+          <button id="receiptBtn" class="secondary full">生成非金融真价值凭证</button>
+        </div>
+        <div class="panel result-panel"><div class="panel-head"><div><h2>贡献与真价值</h2><p>一次贡献不能变成对人格的永久评价。</p></div></div><div id="valueEmpty" class="empty-state"><div class="empty-icon">∞</div><h3>尚未登记贡献</h3></div><div id="valueResult" class="hidden"></div></div>
+      </div>
+    </section>
+
+    <section id="view-policy" class="view">
+      <div class="section-title"><span>COMPLIANCE-FIRST RESILIENCE</span><h1>不突破法律边界，突破能力垄断</h1><p>控制越严格，系统越应保留人工、离线、可解释、最小数据和可申诉路径，而不是制造秘密规避。</p></div>
+      <div class="policy-grid">
+        <article><b>01</b><h3>任务分级，不给人分级</h3><p>系统只描述当前工具环境与任务敏感度。它不形成永久个人等级，也不用于社会资格判断。</p></article>
+        <article><b>02</b><h3>降级执行，不绕过控制</h3><p>云端受限时转向本地或人工；数据不能输出时仅交换模式、摘要、聚合或哈希。</p></article>
+        <article><b>03</b><h3>延迟容忍交换</h3><p>内容寻址ZIP可经用户合法控制的文件、邮件、移动存储或机构通道交换并离线核验。</p></article>
+        <article><b>04</b><h3>生成内容可识别</h3><p>保留模型、版本、提示、人工修订和来源元数据，不帮助删除或伪造生成标识。</p></article>
+        <article><b>05</b><h3>高影响最小复核</h3><p>医疗、法律、金融、就业和公共安全的决定性步骤进入合格复核，不让所有前置工作停摆。</p></article>
+        <article><b>06</b><h3>政策档案由用户声明</h3><p>参考实现不假装自动给出全球法律意见；当地义务应由合法主体更新和复核。</p></article>
+      </div>
+    </section>
+
+    <section id="view-threat" class="view">
+      <div class="section-title"><span>ADVERSARIAL HUMAN MODEL</span><h1>把人性想得足够现实，才能保护开放合作</h1><p>系统默认会遭遇来源剥离、免费劳动抽取、冒充、门槛滥用、数据投毒和价值凭证游戏化。</p></div>
+      <div class="threat-table" id="threatTable"></div>
+    </section>
+
+    <section id="view-architecture" class="view">
+      <div class="section-title"><span>SOVEREIGN & PORTABLE</span><h1>一个共享协议，不依赖一个平台或一个模型</h1><p>D/I/K/W/P是协作核心；模型、国家、平台和算力只是可替换载体。</p></div>
+      <div class="architecture-map">
+        <div class="arch-row"><div class="arch-node people">个体与社区<br><small>需要 · 本地知识 · 主体权</small></div><div class="arrow">→</div><div class="arch-node capsule">协作胶囊<br><small>D/I/K/W/P · 来源 · 任务 · 权利</small></div><div class="arrow">→</div><div class="arch-node router">能力中立编译器<br><small>人工 / 本地 / 云端 / 机构</small></div></div>
+        <div class="arch-row"><div class="arch-node profile">环境与政策档案<br><small>用户声明 · 有时效 · 非个人等级</small></div><div class="arrow">↕</div><div class="arch-node exchange">离线交换包<br><small>Manifest · SHA-256 · 可延迟</small></div><div class="arrow">↕</div><div class="arch-node ledger">贡献与真价值账本<br><small>非金融 · 范围有限 · 可纠错</small></div></div>
+        <div class="arch-row"><div class="arch-node mesh">MESH8.5责任世界线<br><small>执行 · 现实效果 · 纠错 · 受影响者声音</small></div></div>
+      </div>
+      <div class="architecture-notes"><div><h3>核心不变量</h3><ul><li>不绕过法律或技术控制</li><li>不把人评级</li><li>不把真价值金融化</li><li>不让高算力垄断问题生成权</li><li>不以输出替代现实效果</li></ul></div><div><h3>主动循环</h3><ol><li>发现尚未表达的本地问题</li><li>生成最低能力可完成的任务</li><li>匹配贡献者而非排名人</li><li>保存来源与署名</li><li>观察现实结果</li><li>纠错并再开放</li></ol></div></div>
+    </section>
+  </main>
+
+  <footer><div><img src="assets/logo.svg" alt=""><b>DIKWP COMMONBRIDGE-85</b></div><p>Conceptual origin: Yucong Duan / DIKWP · Apache-2.0 reference implementation · No person grading · No circumvention</p></footer>
+  <div id="toast" role="status"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

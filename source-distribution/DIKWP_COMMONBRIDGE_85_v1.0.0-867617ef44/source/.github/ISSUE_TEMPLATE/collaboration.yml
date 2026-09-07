@@ -1,0 +1,29 @@
+name: Collaboration capsule
+about: Propose a source-grounded, capability-neutral collaboration
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Who should gain what capability?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and versions
+    validations:
+      required: true
+  - type: textarea
+    id: differences
+    attributes:
+      label: Differences, constraints and absent worlds
+    validations:
+      required: true
+  - type: dropdown
+    id: manual
+    attributes:
+      label: Manual path available?
+      options: ["Yes", "No - explain why"]
+    validations:
+      required: true
