@@ -1,10 +1,12 @@
 # DIKWP COMMONBRIDGE-85
 
-**Any person. Any lawful AI tier. One verifiable contribution.**
+Created by Yucong Duan (段玉聪).
+
+Any person. Any lawful AI tier. One verifiable contribution.
 
 COMMONBRIDGE-85 is an offline-first, capability-neutral cooperation protocol for an era in which AI access may be fragmented by jurisdiction, institutional role, platform policy, export controls, cost, language and network conditions.
 
-It does **not** bypass law, platform controls, model access restrictions, identity rules, sanctions or export controls. It keeps cooperation possible by compiling the same DIKWP project into lawful paths that can be completed:
+It does not bypass law, platform controls, model access restrictions, identity rules, sanctions or export controls. It keeps cooperation possible by compiling the same DIKWP project into lawful paths that can be completed:
 
 - manually, without AI;
 - with local rules and lightweight tools;
@@ -13,7 +15,7 @@ It does **not** bypass law, platform controls, model access restrictions, identi
 - with advanced hosted tools;
 - or inside an authorized institutional environment.
 
-The system grades **tasks and current environments, never persons**. Environment profiles expire and may change. No global reputation score, ideology score, capability caste, financial token or social-credit object exists.
+The system grades tasks and current environments, never persons. Environment profiles expire and may change. No global reputation score, ideology score, capability caste, financial token or social-credit object exists.
 
 ## What the public tool does
 
@@ -103,7 +105,7 @@ This project does not provide:
 
 The public core is Apache-2.0. Contributions must preserve provenance, non-person-ranking, no-circumvention and non-financial true-value boundaries. High-impact domain adapters require separate qualified review and institutional authorization.
 
-Conceptual origin: **Yucong Duan / DIKWP**.
+Conceptual origin: Yucong Duan / DIKWP.
 
 
 ## Engineering verification
@@ -122,7 +124,7 @@ These results establish engineering consistency in synthetic conditions. They ar
 <!-- DIKWP-SOURCE-VISIBILITY-START -->
 ## Browse source / 浏览源码
 
-[Source index / 源码入口](SOURCE_INDEX.md) expands the retained archive distribution into browsable files, with archive hashes and per-project provenance. Runtime tests: **NOT_RUN**.
+[Source index / 源码入口](SOURCE_INDEX.md) expands the retained archive distribution into browsable files, with archive hashes and per-project provenance. Runtime tests: NOT_RUN.
 
 原始压缩包 保留；新增可浏览源码、哈希与来源记录。运行与测试尚未执行，详情见源码入口。
 <!-- DIKWP-SOURCE-VISIBILITY-END -->
@@ -137,3 +139,7 @@ Research navigation, not verified software dependencies. / 研究导航，不代
 - [DIKWP-SAIL-v1.0.0](https://github.com/YucongDuan/DIKWP-SAIL-v1.0.0)
 - [OPENCONSTELLATION](https://github.com/YucongDuan/OPENCONSTELLATION)
 - [DIKWP-HepatoScholar-OS](https://github.com/YucongDuan/DIKWP-HepatoScholar-OS)
+
+## Current interface presentation
+
+[Open the interface source](source-distribution/DIKWP_COMMONBRIDGE_85_v1.0.0-867617ef44/source/index.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
